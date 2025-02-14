@@ -9,6 +9,9 @@ jobs:
   run_script:
     runs-on: ubuntu-latest
 
+    env: 
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
