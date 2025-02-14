@@ -19,10 +19,10 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.12'  # Ajuste para a versão do Python que você usa
+          python-version: '3.12'  
       
       - name: Instalar dependências
-        run: pip install -r requirements.txt  # Remova essa linha se não houver dependências
-      
+        run: pip install -r requirements.txt  
+
       - name: Executar código
-        run: python daily-script.py  # Troque pelo nome do seu arquivo
+        run: python daily-script.py 
