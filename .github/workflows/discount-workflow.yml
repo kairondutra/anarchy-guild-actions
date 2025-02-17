@@ -1,17 +1,13 @@
-name: Games Promotions 
-
+name: Games Promotions
 on:
   schedule:
     - cron: "0 15 * * *"
-  workflow_dispatch: 
-
+  workflow_dispatch:
 jobs:
   run-script:
     runs-on: ubuntu-latest
-
-    env: 
-        DISCORD_WEBHOOK_URL: ${{ secrets.GAMES_WEBHOOK_URL }}
-
+    env:
+      DISCORD_WEBHOOK_URL: ${{ secrets.GAMES_WEBHOOK_URL }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -28,14 +24,26 @@ jobs:
 
       - name: Install Chrome and ChromeDriver
         run: |
+          # Atualiza os repositórios e instala o Google Chrome
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
+
+          # Obtém a versão do Google Chrome instalado
           CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+')
+          echo "Google Chrome version: $CHROME_VERSION"
+
+          # Obtém a versão do ChromeDriver compatível
           CHROMEDRIVER_VERSION=$(curl -s https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION%.*})
+          echo "ChromeDriver version: $CHROMEDRIVER_VERSION"
+
+          # Baixa e configura o ChromeDriver
           wget https://chromedriver.storage.googleapis.com/$CHROMEDRIVER_VERSION/chromedriver_linux64.zip
           unzip chromedriver_linux64.zip
           sudo mv chromedriver /usr/local/bin/chromedriver
           sudo chmod +x /usr/local/bin/chromedriver
+
+          # Verifica se o ChromeDriver foi instalado corretamente
+          chromedriver --version
 
       - name: Run script
         run: |
