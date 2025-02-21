@@ -1,0 +1,36 @@
+name: Deploy GitHub Pages
+
+on:
+  # Dispara o workflow quando houver push na branch principal
+  push:
+    branches:
+      - main
+    paths:
+      - 'github-pages/**'  # Apenas alterações na pasta github-pages acionam o deploy
+
+  # Permite rodar manualmente o workflow
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Passo 1: Fazer checkout do código
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      # Passo 2: Configurar o GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      # Passo 3: Carregar os arquivos para deploy
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./github-pages/src  # Pasta onde estão os arquivos HTML, CSS e JS
+
+      # Passo 4: Deploy no GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
