@@ -4,10 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'github-pages/**'
-
-  workflow_dispatch:
 
 jobs:
   deploy:
@@ -23,22 +19,16 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      # Passo 2: Mover arquivos para a raiz
-      - name: Move files to root
-        run: |
-          mkdir -p ./deploy
-          cp -r ./github-pages/src/* ./deploy/
+      # Passo 2: Listar arquivos na raiz (para depuração)
+      - name: List files in root directory
+        run: ls -R ./
 
-      # Passo 3: Listar arquivos no diretório do artefato (para depuração)
-      - name: List files in artifact directory
-        run: ls -R ./deploy
-
-      # Passo 4: Carregar os arquivos para deploy
+      # Passo 3: Carregar os arquivos para deploy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./deploy  # Agora os arquivos estão na raiz
+          path: ./  # Agora os arquivos estão na raiz
 
-      # Passo 5: Deploy no GitHub Pages
+      # Passo 4: Deploy no GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
