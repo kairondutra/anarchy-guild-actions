@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let npcsData = {};
 
     // Carrega os dados do JSON
-    fetch("data/data_nwtasks.json")
+    fetch("data_nwtasks.json")
         .then((response) => response.json())
         .then((data) => {
             npcsData = data;
@@ -33,10 +33,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     const npcCard = `
               <div class="npc-card">
                 <h3>${npc.npc} (${region})</h3>
-                <p><strong>Objetivo:</strong> ${npc.objective}</p>
+                <p><strong>Objetivo:</strong> ${npc.objetivos}</p>
                 <p><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
                 <p><strong>Recompensas:</strong> EXP ${npc.recompensa.exp}, NW EXP ${npc.recompensa.nw_exp}</p>
-                <p><strong>Itens:</strong> ${npc.recompensa.items.map(item => `${item.quantidade}x ${item.nome}`).join(", ")}</p>
+                <p><strong>Itens:</strong> ${npc.recompensa.itens.map(item => `${item.quantidade}x ${item.nome}`).join(", ")}</p>
               </div>
             `;
                     resultsDiv.innerHTML += npcCard;
