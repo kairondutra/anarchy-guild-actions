@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'github-pages/**'  # Apenas alterações na pasta github-pages acionam o deploy
+      - 'github-pages/**'
 
   workflow_dispatch:
 
