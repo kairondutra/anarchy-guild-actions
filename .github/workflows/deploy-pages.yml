@@ -11,12 +11,12 @@ on:
   # Permite rodar manualmente o workflow
   workflow_dispatch:
 
-permissions:
-  id-token: write
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
+    permissions:
+        id-token: write
 
     steps:
       # Passo 1: Fazer checkout do código
