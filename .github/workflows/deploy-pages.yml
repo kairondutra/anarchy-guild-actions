@@ -1,14 +1,12 @@
 name: Deploy GitHub Pages
 
 on:
-  # Dispara o workflow quando houver push na branch principal
   push:
     branches:
       - main
     paths:
       - 'github-pages/**'  # Apenas alterações na pasta github-pages acionam o deploy
 
-  # Permite rodar manualmente o workflow
   workflow_dispatch:
 
 jobs:
@@ -16,7 +14,9 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-        id-token: write
+      contents: write
+      pages: write
+      id-token: write
 
     steps:
       # Passo 1: Fazer checkout do código
