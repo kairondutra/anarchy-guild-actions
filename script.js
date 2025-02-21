@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let npcsData = {};
 
     // Carrega os dados do JSON
-    fetch("data_nwtasks.json")
+    fetch("data/data_nwtasks.json")
         .then((response) => response.json())
         .then((data) => {
             npcsData = data;
@@ -25,20 +25,28 @@ document.addEventListener("DOMContentLoaded", () => {
         // Itera sobre todas as regiões e NPCs
         for (const [region, npcs] of Object.entries(npcsData)) {
             npcs.forEach((npc) => {
+                // Verifica se o termo está presente em algum dos campos relevantes
                 if (
                     npc.npc.toLowerCase().includes(query) ||
-                    region.toLowerCase().includes(query)
+                    region.toLowerCase().includes(query) ||
+                    npc.objective.toLowerCase().includes(query) ||
+                    npc.recompensa.exp.toString().includes(query) ||
+                    npc.recompensa.nw_exp.toString().includes(query) ||
+                    npc.recompensa.items.some(item => 
+                        item.nome.toLowerCase().includes(query) || 
+                        item.quantidade.toString().includes(query)
+                    )
                 ) {
                     foundResults = true;
                     const npcCard = `
-              <div class="npc-card">
-                <h3>${npc.npc} (${region})</h3>
-                <p><strong>Objetivo:</strong> ${npc.objetivos}</p>
-                <p><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
-                <p><strong>Recompensas:</strong> EXP ${npc.recompensa.exp}, NW EXP ${npc.recompensa.nw_exp}</p>
-                <p><strong>Itens:</strong> ${npc.recompensa.itens.map(item => `${item.quantidade}x ${item.nome}`).join(", ")}</p>
-              </div>
-            `;
+                        <div class="npc-card">
+                            <h3>${npc.npc} (${region})</h3>
+                            <p><strong>Objetivo:</strong> ${npc.objective}</p>
+                            <p><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
+                            <p><strong>Recompensas:</strong> EXP ${npc.recompensa.exp}, NW EXP ${npc.recompensa.nw_exp}</p>
+                            <p><strong>Itens:</strong> ${npc.recompensa.items.length > 0 ? npc.recompensa.items.map(item => `${item.quantidade}x ${item.nome}`).join(", ") : "Nenhum item"}</p>
+                        </div>
+                    `;
                     resultsDiv.innerHTML += npcCard;
                 }
             });
