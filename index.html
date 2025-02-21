@@ -7,14 +7,19 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Nightmare Tasks</h1>
-    <input type="text" id="searchInput" placeholder="Digite o nome do NPC..." />
-    <button onclick="searchNPCs()">Buscar</button>
-
-    <div id="results"></div>
-  </div>
-
-  <script src="script.js"></script>
+    <div class="container">
+        <h1>Pesquisar NPCs</h1>
+        <input type="text" id="searchInput" placeholder="Digite sua pesquisa..." oninput="applyFilters()">
+        <div class="filters">
+            <label><input type="checkbox" id="filterDerrotar" onchange="applyFilters()"> Derrotar</label>
+            <label><input type="checkbox" id="filterColetar" onchange="applyFilters()"> Coletar</label>
+            <label><input type="checkbox" id="filterLevel300" onchange="applyFilters()"> Level 300+</label>
+            <label><input type="checkbox" id="filterNWLevel50" onchange="applyFilters()"> NW Level 50+</label>
+            <label><input type="checkbox" id="filterBlackGem" onchange="applyFilters()"> Black Nightmare Gem</label>
+            <label><input type="checkbox" id="filterBeastBall" onchange="applyFilters()"> Beast Ball</label>
+        </div>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
