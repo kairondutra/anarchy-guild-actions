@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let npcsData = {};
 
     // Carrega os dados do JSON
-    fetch("data_nwtasks.json")
+    fetch("data/data_nwtasks.json")
         .then((response) => response.json())
         .then((data) => {
             npcsData = data;
