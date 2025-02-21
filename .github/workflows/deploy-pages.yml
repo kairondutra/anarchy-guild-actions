@@ -23,17 +23,16 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      # Passo 2: Configurar o GitHub Pages
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+      # Passo 2: Listar arquivos no diretório do artefato (para depuração)
+      - name: List files in artifact directory
+        run: ls -R ./github-pages/src
 
       # Passo 3: Carregar os arquivos para deploy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./github-pages/src  # Pasta onde estão os arquivos HTML, CSS e JS
+          path: ./github-pages/src  # Caminho correto para os arquivos
 
       # Passo 4: Deploy no GitHub Pages
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v2
