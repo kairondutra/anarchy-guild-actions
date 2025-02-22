@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const filterDerrotar = document.getElementById("filterDerrotar").checked;
         const filterColetar = document.getElementById("filterColetar").checked;
         const filterLevel300 = document.getElementById("filterLevel300").checked;
+        const filterLevel400 = document.getElementById("filterLevel400").checked;
         const filterNWLevel50 = document.getElementById("filterNWLevel50").checked;
         const filterBlackGem = document.getElementById("filterBlackGem").checked;
         const filterBeastBall = document.getElementById("filterBeastBall").checked;
@@ -39,6 +40,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     matchesFilter = false;
                 }
                 if (filterLevel300 && npc.requisitos.level < 300) {
+                    matchesFilter = false;
+                }
+                if (filterLevel400 && npc.requisitos.level < 400) {
                     matchesFilter = false;
                 }
                 if (filterNWLevel50 && npc.requisitos.nw_level < 50) {
