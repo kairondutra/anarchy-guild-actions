@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then((response) => response.json())
         .then((data) => {
             npcsData = data;
-            applyFilters(); // Aplica os filtros iniciais
+            applyFilters();
         })
         .catch((error) => console.error("Erro ao carregar dados:", error));
 
@@ -46,10 +46,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Função para formatar os objetivoss
         function formatarobjetivos(objetivos) {
+            if (!objetivos) return ""; // Retorna vazio se o objetivo for nulo ou indefinido
             // Substitui pontos finais seguidos de espaço por "<br>" para criar quebras de linha
             return objetivos.replace(/\. /g, ".<br>");
         }
-
 
         // Itera sobre todas as regiões e NPCs
         for (const [region, npcs] of Object.entries(npcsData)) {
@@ -63,22 +63,22 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (filterColetar && !npc.objetivos.toLowerCase().includes("coletar")) {
                     matchesFilter = false;
                 }
-                if (filterLevel300 && npc.requisitos.level !== 300) {
+                if (filterLevel300 && filterLevel400) {
+                    if (npc.requisitos.level < 300) {
+                        matchesFilter = false;
+                    }
+                } else if (filterLevel300 && npc.requisitos.level !== 300) {
                     matchesFilter = false;
-                }
-                if (filterLevel400 && npc.requisitos.level < 400) {
-                    matchesFilter = false;
-                }
-                if (filterLevel300 && filterLevel400 && npc.requisitos.level < 400) {
+                } else if (filterLevel400 && npc.requisitos.level < 400) {
                     matchesFilter = false;
                 }
                 if (filterNWLevel50 && npc.requisitos.nw_level < 50) {
                     matchesFilter = false;
                 }
-                if (filterBlackGem && !npc.recompensa.itens.some(item => item.nome.toLowerCase().includes("black nightmare gem"))) {
+                if (filterBlackGem && !(npc.recompensa.itens || []).some(item => item.nome.toLowerCase().includes("black nightmare gem"))) {
                     matchesFilter = false;
                 }
-                if (filterBeastBall && !npc.recompensa.itens.some(item => item.nome.toLowerCase().includes("beast ball"))) {
+                if (filterBeastBall && !(npc.recompensa.itens || []).some(item => item.nome.toLowerCase().includes("beast ball"))) {
                     matchesFilter = false;
                 }
 
@@ -99,20 +99,23 @@ document.addEventListener("DOMContentLoaded", () => {
                 ) {
                     foundResults = true;
 
+                    const expFormatted = npc.recompensa.exp; 
+                    const nwExpFormatted = npc.recompensa.nw_exp; 
+                    
                     // Formata as recompensas
                     const recompensasFormatadas = formatarRecompensas(
-                        npc.recompensa.exp,
-                        npc.recompensa.nw_exp,
+                        expFormatted,
+                        nwExpFormatted,
                         npc.recompensa.itens || []
                     );
 
                     // Cria o card do NPC
                     const npcCard = `
                         <div class="npc-card">
-                            <h3>${npc.npc} (${region})</h3>
-                            <p><strong>objetivos:</strong><br>${formatarobjetivos(npc.objetivos)}</p>
-                            <p><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
-                            <p><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
+                            <h3 class="npc-name">${npc.npc} (${region})</h3>
+                            <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivo)}</p>
+                            <p class="npc-requirements"><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
+                            <p class="npc-rewards"><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
                         </div>
                     `;
                     resultsDiv.innerHTML += npcCard;
