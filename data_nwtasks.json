@@ -1,5 +1,5 @@
 {
-    "Nightmare_Cerulean": [
+    "Nightmare Cerulean": [
         {
             "npc": "Missy",
             "objetivos": "Derrotar 300 Meowstic",
@@ -8,8 +8,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 2000000,
-                "nw_exp": 40000,
+                "exp": "2KK",
+                "nw_exp": "40K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -26,8 +26,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 878400,
-                "nw_exp": 7000,
+                "exp": "878.4K",
+                "nw_exp": "7K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -44,8 +44,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 3513600,
-                "nw_exp": 27000,
+                "exp": "3.513.6K",
+                "nw_exp": "27K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -62,8 +62,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 650000,
-                "nw_exp": 5500,
+                "exp": "650K",
+                "nw_exp": "5.5K",
                 "itens": []
             }
         },
@@ -75,8 +75,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 3000000,
-                "nw_exp": 60000,
+                "exp": "3KK",
+                "nw_exp": "60K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -93,30 +93,12 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 3294000,
-                "nw_exp": 22000,
+                "exp": "3.294K",
+                "nw_exp": "22K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
                         "quantidade": 22
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Reginald",
-            "objetivos": "Derrotar 160 Silicobra",
-            "requisitos": {
-                "level": 300,
-                "nw_level": 2
-            },
-            "recompensa": {
-                "exp": 1756800,
-                "nw_exp": 11000,
-                "itens": [
-                    {
-                        "nome": "Cyan Nightmare Gem",
-                        "quantidade": 11
                     }
                 ]
             }
@@ -129,8 +111,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 2100000,
-                "nw_exp": 15000,
+                "exp": "2.1KK",
+                "nw_exp": "15K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -140,7 +122,27 @@
             }
         }
     ],
-    "Hurricane_Islands_e_Cosmic_Island": [
+    "Wastelands": [
+        {
+            "npc": "Reginald",
+            "objetivos": "Derrotar 160 Silicobra",
+            "requisitos": {
+                "level": 300,
+                "nw_level": 2
+            },
+            "recompensa": {
+                "exp": "1.756.8K",
+                "nw_exp": "11K",
+                "itens": [
+                    {
+                        "nome": "Cyan Nightmare Gem",
+                        "quantidade": 11
+                    }
+                ]
+            }
+        }
+    ],
+    "Hurricane Islands": [
         {
             "npc": "Vance",
             "objetivos": "Derrotar 200 Galarian Farfetch'd",
@@ -149,8 +151,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 2196800,
-                "nw_exp": 12000,
+                "exp": "2.196.8K",
+                "nw_exp": "12K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -158,7 +160,9 @@
                     }
                 ]
             }
-        },
+        }
+    ],
+    "Cosmic Islands": [
         {
             "npc": "Atem",
             "objetivos": "1º Derrotar 250 Lunatone e 250 Solrock; 2º Entregar 100 Sun Pieces e 100 Moon Pieces",
@@ -167,8 +171,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 5270000,
-                "nw_exp": 36000,
+                "exp": "5.27KK",
+                "nw_exp": "36K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -183,7 +187,7 @@
             }
         }
     ],
-    "Green_Island_e_Wildwind_Island": [
+    "Green Island": [
         {
             "npc": "Berg",
             "objetivos": "Derrotar 220 Rockruff",
@@ -192,8 +196,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 2100000,
-                "nw_exp": 15000,
+                "exp": "2.1KK",
+                "nw_exp": "15K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -210,8 +214,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 2000000,
-                "nw_exp": 40000,
+                "exp": "2KK",
+                "nw_exp": "40K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -219,7 +223,9 @@
                     }
                 ]
             }
-        },
+        }
+    ],
+    "Wildwind Island": [
         {
             "npc": "Michael",
             "objetivos": "Derrotar 140 Mantyke",
@@ -228,8 +234,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 1647000,
-                "nw_exp": 12000,
+                "exp": "1.647K",
+                "nw_exp": "12K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -246,8 +252,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 2000000,
-                "nw_exp": 40000,
+                "exp": "2KK",
+                "nw_exp": "40K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -257,7 +263,7 @@
             }
         }
     ],
-    "Lightstorm_Island": [
+    "Lightstorm Island": [
         {
             "npc": "Wilfor",
             "objetivos": "Derrotar 200 Galarian Darumaka",
@@ -266,8 +272,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 1700000,
-                "nw_exp": 12000,
+                "exp": "1.7KK",
+                "nw_exp": "12K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -284,8 +290,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 1500000,
-                "nw_exp": 27000,
+                "exp": "1.5KK",
+                "nw_exp": "27K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -295,7 +301,7 @@
             }
         }
     ],
-    "Nightmare_Pewter": [
+    "Nightmare Pewter": [
         {
             "npc": "Bella",
             "objetivos": "Derrotar 80 Small Sentinels e 10 Sentinels",
@@ -304,8 +310,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 1098000,
-                "nw_exp": 9000,
+                "exp": "1.098KK",
+                "nw_exp": "9K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -322,8 +328,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 2196000,
-                "nw_exp": 12000,
+                "exp": "2.196KK",
+                "nw_exp": "12K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -340,8 +346,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 2000000,
-                "nw_exp": 40000,
+                "exp": "2KK",
+                "nw_exp": "40K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -358,8 +364,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 2000000,
-                "nw_exp": 60000,
+                "exp": "2KK",
+                "nw_exp": "60K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -376,8 +382,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 2000000,
-                "nw_exp": 60000,
+                "exp": "2KK",
+                "nw_exp": "60K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -394,8 +400,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 2000000,
-                "nw_exp": 60000,
+                "exp": "2KK",
+                "nw_exp": "60K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -412,8 +418,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 1647000,
-                "nw_exp": 12000,
+                "exp": "1.647KK",
+                "nw_exp": "12K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -430,8 +436,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 800000,
-                "nw_exp": 15000,
+                "exp": "800K",
+                "nw_exp": "15K",
                 "itens": [
                     {
                         "nome": "Nightmare Ball",
@@ -448,8 +454,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 1500000,
-                "nw_exp": 27000,
+                "exp": "1.5KK",
+                "nw_exp": "27K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -466,8 +472,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 2100000,
-                "nw_exp": 15000,
+                "exp": "2.1KK",
+                "nw_exp": "15K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -484,8 +490,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 2500000,
-                "nw_exp": 34000,
+                "exp": "2.5KK",
+                "nw_exp": "34K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -502,8 +508,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 878400,
-                "nw_exp": 7000,
+                "exp": "878.4K",
+                "nw_exp": "7K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -520,8 +526,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 878400,
-                "nw_exp": 7000,
+                "exp": "878.4K",
+                "nw_exp": "7K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -538,8 +544,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 2100000,
-                "nw_exp": 15000,
+                "exp": "2.1KK",
+                "nw_exp": "15K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -549,7 +555,7 @@
             }
         }
     ],
-    "Nightmare_Lavender": [
+    "Nightmare Lavender": [
         {
             "npc": "Karl",
             "objetivos": "Derrotar 300 Nightmare Machoke e 15 Shiny Machoke",
@@ -558,8 +564,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 3154000,
-                "nw_exp": 21000,
+                "exp": "3.154KK",
+                "nw_exp": "21K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -576,8 +582,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 2000000,
-                "nw_exp": 40000,
+                "exp": "2KK",
+                "nw_exp": "40K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -594,8 +600,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 1000000,
-                "nw_exp": 20000,
+                "exp": "1KK",
+                "nw_exp": "20K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -612,8 +618,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 549000,
-                "nw_exp": 5000,
+                "exp": "549K",
+                "nw_exp": "5K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -630,8 +636,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 1756800,
-                "nw_exp": 11000,
+                "exp": "1.757KK",
+                "nw_exp": "11K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -648,8 +654,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 2196800,
-                "nw_exp": 12000,
+                "exp": "2.197KK",
+                "nw_exp": "12K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -666,8 +672,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 878400,
-                "nw_exp": 6000,
+                "exp": "878.4K",
+                "nw_exp": "6K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -684,8 +690,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 1826800,
-                "nw_exp": 11000,
+                "exp": "1.827KK",
+                "nw_exp": "11K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -695,7 +701,7 @@
             }
         }
     ],
-    "Nightmare_Pallet_e_Fire_Island": [
+    "Nightmare Pallet": [
         {
             "npc": "Dekah",
             "objetivos": "Derrotar 150 Gallade, 150 Honchkrow, 150 Empoleon, 150 Infernape, 150 Torterra e 150 Luxray",
@@ -704,8 +710,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 7000000,
-                "nw_exp": 130000,
+                "exp": "7KK",
+                "nw_exp": "130K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -722,8 +728,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 1756800,
-                "nw_exp": 11000,
+                "exp": "1.757KK",
+                "nw_exp": "11K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -740,8 +746,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 2196000,
-                "nw_exp": 18000,
+                "exp": "2.196KK",
+                "nw_exp": "18K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -758,8 +764,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 1000000,
-                "nw_exp": 20000,
+                "exp": "1KK",
+                "nw_exp": "20K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -776,8 +782,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 1000000,
-                "nw_exp": 20000,
+                "exp": "1KK",
+                "nw_exp": "20K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -785,7 +791,9 @@
                     }
                 ]
             }
-        },
+        }
+    ],
+    "Fire Island": [
         {
             "npc": "Malone",
             "objetivos": "Derrotar 150 Pyroar Female",
@@ -794,8 +802,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 1000000,
-                "nw_exp": 20000,
+                "exp": "1KK",
+                "nw_exp": "20K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -812,8 +820,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 1500000,
-                "nw_exp": 30000,
+                "exp": "1.5KK",
+                "nw_exp": "30K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -830,8 +838,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 1098000,
-                "nw_exp": 9000,
+                "exp": "1.098KK",
+                "nw_exp": "9K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -841,7 +849,7 @@
             }
         }
     ],
-    "Nightmare_Cinnabar": [
+    "Nightmare Cinnabar": [
         {
             "npc": "Theobald",
             "objetivos": "Derrotar 330 Alolan Persian e 330 Alolan Muk",
@@ -850,8 +858,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 4400000,
-                "nw_exp": 70000,
+                "exp": "4.4KK",
+                "nw_exp": "70K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -868,8 +876,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 549000,
-                "nw_exp": 5000,
+                "exp": "549K",
+                "nw_exp": "5K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -886,8 +894,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 2100000,
-                "nw_exp": 15000,
+                "exp": "2.1KK",
+                "nw_exp": "15K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -904,8 +912,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 1500000,
-                "nw_exp": 27000,
+                "exp": "1.5KK",
+                "nw_exp": "27K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -915,7 +923,7 @@
             }
         }
     ],
-    "Nightmare_Fuchsia": [
+    "Nightmare Fuchsia": [
         {
             "npc": "Hofs",
             "objetivos": "Derrotar 180 Eelektross",
@@ -925,8 +933,8 @@
                 "observacao": "Possuir Mecha"
             },
             "recompensa": {
-                "exp": 1400000,
-                "nw_exp": 30000,
+                "exp": "1.4KK",
+                "nw_exp": "30K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -943,8 +951,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 549000,
-                "nw_exp": 4500,
+                "exp": "549K",
+                "nw_exp": "4.5K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -961,8 +969,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 1756800,
-                "nw_exp": 11000,
+                "exp": "1.757KK",
+                "nw_exp": "11K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -979,8 +987,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 2635200,
-                "nw_exp": 18000,
+                "exp": "2.635KK",
+                "nw_exp": "18K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -997,8 +1005,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 2000000,
-                "nw_exp": 40000,
+                "exp": "2KK",
+                "nw_exp": "40K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -1015,8 +1023,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 2635200,
-                "nw_exp": 18000,
+                "exp": "2.635KK",
+                "nw_exp": "18K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -1033,8 +1041,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 768600,
-                "nw_exp": 5000,
+                "exp": "768.6K",
+                "nw_exp": "5K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -1044,7 +1052,7 @@
             }
         }
     ],
-    "Seafoam_Island": [
+    "Seafoam Island": [
         {
             "npc": "Beckett",
             "objetivos": "Derrotar 50 Petilil e 50 Nightmare Nuzleaf",
@@ -1053,8 +1061,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 1098000,
-                "nw_exp": 9000,
+                "exp": "1.098KK",
+                "nw_exp": "9K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -1071,8 +1079,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 3000000,
-                "nw_exp": 60000,
+                "exp": "3KK",
+                "nw_exp": "60K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -1089,8 +1097,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 878400,
-                "nw_exp": 7000,
+                "exp": "878.4K",
+                "nw_exp": "7K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -1107,8 +1115,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 1647000,
-                "nw_exp": 13000,
+                "exp": "1.647KK",
+                "nw_exp": "13K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -1125,8 +1133,8 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 2000000,
-                "nw_exp": 40000,
+                "exp": "2KK",
+                "nw_exp": "40K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
@@ -1143,8 +1151,8 @@
                 "nw_level": 2
             },
             "recompensa": {
-                "exp": 2100000,
-                "nw_exp": 15000,
+                "exp": "2.1KK",
+                "nw_exp": "15K",
                 "itens": [
                     {
                         "nome": "Cyan Nightmare Gem",
@@ -1161,326 +1169,12 @@
                 "nw_level": 50
             },
             "recompensa": {
-                "exp": 2000000,
-                "nw_exp": 40000,
+                "exp": "2KK",
+                "nw_exp": "40K",
                 "itens": [
                     {
                         "nome": "Black Nightmare Gem",
                         "quantidade": 2
-                    }
-                ]
-            }
-        }
-    ],
-    "Lost_Island": [
-        {
-            "npc": "Ray",
-            "objetivos": "Derrotar 250 Druddigon",
-            "requisitos": {
-                "level": 400,
-                "nw_level": 50
-            },
-            "recompensa": {
-                "exp": 2500000,
-                "nw_exp": 37000,
-                "itens": [
-                    {
-                        "nome": "Black Nightmare Gem",
-                        "quantidade": 2
-                    }
-                ]
-            }
-        }
-    ],
-    "Nightmare_Hoenn_Koga_Island": [
-        {
-            "npc": "Edward",
-            "objetivos": "Derrotar 200 Nightmare Linoone",
-            "requisitos": {
-                "level": 430,
-                "nw_level": 45
-            },
-            "recompensa": {
-                "exp": 3000000,
-                "nw_exp": 30000,
-                "itens": [
-                    {
-                        "nome": "Beast Ball",
-                        "quantidade": 3
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Drake",
-            "objetivos": "Derrotar 100 Nightmare Beautifly e 100 Nightmare Dustox",
-            "requisitos": {
-                "level": 430,
-                "nw_level": 45
-            },
-            "recompensa": {
-                "exp": 4000000,
-                "nw_exp": 40000,
-                "itens": [
-                    {
-                        "nome": "Beast Ball",
-                        "quantidade": 3
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Kidd",
-            "objetivos": "Derrotar 200 Nightmare Masquerain",
-            "requisitos": {
-                "level": 430,
-                "nw_level": 45
-            },
-            "recompensa": {
-                "exp": 3000000,
-                "nw_exp": 30000,
-                "itens": [
-                    {
-                        "nome": "Beast Ball",
-                        "quantidade": 3
-                    }
-                ]
-            }
-        }
-    ],
-    "Nightmare_Hoenn_Dewford": [
-        {
-            "npc": "Hank",
-            "objetivos": "Derrotar 200 Nightmare Drifloon ou 200 Nightmare Scragy",
-            "requisitos": {
-                "level": 430,
-                "nw_level": 45
-            },
-            "recompensa": {
-                "exp": 3000000,
-                "nw_exp": 30000,
-                "itens": [
-                    {
-                        "nome": "Beast Ball",
-                        "quantidade": 3
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Thaddeus",
-            "objetivos": "Derrotar 200 Drifblim",
-            "requisitos": {
-                "level": 430,
-                "nw_level": 45
-            },
-            "recompensa": {
-                "exp": 4000000,
-                "nw_exp": 40000,
-                "itens": [
-                    {
-                        "nome": "Beast Ball",
-                        "quantidade": 3
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Sarita",
-            "objetivos": "Derrotar 200 Nightmare Scrafty",
-            "requisitos": {
-                "level": 430,
-                "nw_level": 45
-            },
-            "recompensa": {
-                "exp": 4000000,
-                "nw_exp": 40000,
-                "itens": [
-                    {
-                        "nome": "Beast Ball",
-                        "quantidade": 3
-                    }
-                ]
-            }
-        }
-    ],
-    "Nightmare_Grandmaster": [
-        {
-            "npc": "Malefic Grandmaster",
-            "objetivos": "Derrotar: 100 Nightmare Banette, 100 Nightmare Misdreavus, 100 Nightmare Wizard Honchkrow, 100 Nightmare Muk, 100 Nightmare Seviper e 40 Nightmare Weezing",
-            "requisitos": {
-                "level_minimo": 400,
-                "nw_level": 30
-            },
-            "recompensa": {
-                "exp": 4000000,
-                "nw_exp": 40000,
-                "itens": [
-                    {
-                        "nome": "Cyan Nightmare Gem",
-                        "quantidade": 50
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Seavell Grandmaster",
-            "objetivos": "Derrotar: 30 Nightmare Abomasnow, 30 Nightmare Snover, 180 Nightmare Glalie, 180 Nightmare Piloswine e 180 Nightmare Empoleon",
-            "requisitos": {
-                "level_minimo": 400,
-                "nw_level": 30
-            },
-            "recompensa": {
-                "exp": 4000000,
-                "nw_exp": 40000,
-                "itens": [
-                    {
-                        "nome": "Cyan Nightmare Gem",
-                        "quantidade": 50
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Raibolt Grandmaster",
-            "objetivos": "Derrotar: 200 Nightmare Manectric, 200 Nightmare Raichu e 200 Nightmare Luxray",
-            "requisitos": {
-                "level_minimo": 400,
-                "nw_level": 30
-            },
-            "recompensa": {
-                "exp": 4000000,
-                "nw_exp": 40000,
-                "itens": [
-                    {
-                        "nome": "Cyan Nightmare Gem",
-                        "quantidade": 50
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Naturia Grandmaster",
-            "objetivos": "Derrotar: 100 Nightmare Torterra, 100 Lilligant, 100 Nightmare Shiftry, 100 Nightmare Tangela, 160 Nightmare Pinsir e 40 Nightmare Scizor",
-            "requisitos": {
-                "level_minimo": 400,
-                "nw_level": 30
-            },
-            "recompensa": {
-                "exp": 4000000,
-                "nw_exp": 40000,
-                "itens": [
-                    {
-                        "nome": "Cyan Nightmare Gem",
-                        "quantidade": 50
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Psycraft Grandmaster",
-            "objetivos": "Derrotar: 60 Nightmare Starmie, 90 Nightmare Gardevoir, 90 Nightmare Togetic, 90 Nightmare Alakazam, 90 Nightmare Gallade, 90 Nightmare Grumpig e 90 Nightmare Togekiss",
-            "requisitos": {
-                "level_minimo": 400,
-                "nw_level": 30
-            },
-            "recompensa": {
-                "exp": 4000000,
-                "nw_exp": 40000,
-                "itens": [
-                    {
-                        "nome": "Cyan Nightmare Gem",
-                        "quantidade": 50
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Gardestrike Grandmaster",
-            "objetivos": "Derrotar: 100 Nightmare Infernape, 100 Nightmare Ursaring, 100 Nightmare Miltank, 10 Nightmare Porygon2, 90 Nightmare Porygon e 100 Nightmare Machamp",
-            "requisitos": {
-                "level_minimo": 400,
-                "nw_level": 30
-            },
-            "recompensa": {
-                "exp": 4000000,
-                "nw_exp": 40000,
-                "itens": [
-                    {
-                        "nome": "Cyan Nightmare Gem",
-                        "quantidade": 50
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Volcanic Grandmaster",
-            "objetivos": "Derrotar: 200 Nightmare Ninetales, 200 Nightmare Torkoal e 200 Nightmare Houndoom",
-            "requisitos": {
-                "level_minimo": 400,
-                "nw_level": 30
-            },
-            "recompensa": {
-                "exp": 4000000,
-                "nw_exp": 40000,
-                "itens": [
-                    {
-                        "nome": "Cyan Nightmare Gem",
-                        "quantidade": 50
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Orebound Grandmaster",
-            "objetivos": "Derrotar: 180 Nightmare Sudowoodo, 180 Sandaconda, 180 Nightmare Tyranitar e 60 Nightmare Steelix",
-            "requisitos": {
-                "level_minimo": 400,
-                "nw_level": 30
-            },
-            "recompensa": {
-                "exp": 4000000,
-                "nw_exp": 40000,
-                "itens": [
-                    {
-                        "nome": "Cyan Nightmare Gem",
-                        "quantidade": 50
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Ironhard Grandmaster",
-            "objetivos": "Derrotar: 300 Nightmare Magnezone",
-            "requisitos": {
-                "level_minimo": 400,
-                "nw_level": 30
-            },
-            "recompensa": {
-                "exp": 4000000,
-                "nw_exp": 40000,
-                "itens": [
-                    {
-                        "nome": "Cyan Nightmare Gem",
-                        "quantidade": 50
-                    }
-                ]
-            }
-        },
-        {
-            "npc": "Wingeon Grandmaster",
-            "objetivos": "Derrotar: 200 Nightmare Altaria, 150 Nightmare Dragonite e 250 Nightmare Pidgeot",
-            "requisitos": {
-                "level_minimo": 400,
-                "nw_level": 30
-            },
-            "recompensa": {
-                "exp": 4000000,
-                "nw_exp": 40000,
-                "itens": [
-                    {
-                        "nome": "Cyan Nightmare Gem",
-                        "quantidade": 50
                     }
                 ]
             }
