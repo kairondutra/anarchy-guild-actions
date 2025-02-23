@@ -105,14 +105,19 @@ document.addEventListener("DOMContentLoaded", () => {
                         npc.recompensa.itens || []
                     );
 
-                    // Cria o card do NPC com o botão "Copiar Local"
+                    // Cria o card do NPC com o local clicável
                     const npcCard = `
                         <div class="npc-card">
-                            <h3 class="npc-name">${npc.npc} (${region})</h3>
+                            <h3 class="npc-name">${npc.npc}</h3>
+                            <p class="npc-region-local">
+                                <span class="region">Região: ${region}</span>
+                                <span class="local clickable" data-local="${npc.local || 'Coordenada não disponível'}">
+                                    Local: ${npc.local || 'Coordenada não disponível'}
+                                </span>
+                            </p>
                             <p class="npc-requirements"><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
                             <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivos)}</p>
                             <p class="npc-rewards"><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
-                            <button class="copy-location-button" data-local="${npc.local || 'Local não disponível'}">Copiar Local</button>
                         </div>
                     `;
                     resultsDiv.innerHTML += npcCard;
@@ -130,22 +135,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Função para adicionar a funcionalidade de cópia
     function addCopyLocationFunctionality() {
-        const copyButtons = document.querySelectorAll(".copy-location-button");
+        const copyLocals = document.querySelectorAll(".local.clickable");
 
-        copyButtons.forEach(button => {
-            button.addEventListener("click", function () {
+        copyLocals.forEach(localElement => {
+            localElement.addEventListener("click", function () {
                 const local = this.getAttribute("data-local");
 
                 // Copia o texto para a área de transferência
                 navigator.clipboard.writeText(local).then(() => {
-                    // Altera o texto do botão temporariamente para indicar sucesso
-                    this.textContent = "Coordenada Copiada!";
+                    // Altera o texto temporariamente para indicar sucesso
+                    this.textContent = "Coordenada copiada!";
                     setTimeout(() => {
-                        this.textContent = "Copiar Coordenada";
+                        this.textContent = `Local: ${local}`;
                     }, 2000);
                 }).catch(err => {
-                    console.error("Erro ao copiar a Coordenada:", err);
-                    alert("Ocorreu um erro ao copiar a Coordenada.");
+                    console.error("Erro ao copiar a coordenada:", err);
+                    alert("Ocorreu um erro ao copiar a coordenada.");
                 });
             });
         });
