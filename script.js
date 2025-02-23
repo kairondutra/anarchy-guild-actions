@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     let npcsData = {};
-
     // Carrega os dados do JSON
     fetch("data_nwtasks.json")
         .then((response) => response.json())
@@ -30,7 +29,6 @@ document.addEventListener("DOMContentLoaded", () => {
         // Função para formatar as recompensas
         function formatarRecompensas(exp, nw_exp, itens) {
             let resultado = `EXP ${exp}, NW EXP ${nw_exp}`;
-
             if (itens.length === 0) {
                 return resultado;
             } else if (itens.length === 1) {
@@ -40,11 +38,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 const ultimoItem = itensFormatados.pop();
                 resultado += `, ${itensFormatados.join(", ")} e ${ultimoItem}`;
             }
-
             return resultado;
         }
 
-        // Função para formatar os objetivoss
+        // Função para formatar os objetivos
         function formatarObjetivos(objetivos) {
             if (!objetivos) return ""; // Retorna vazio se o objetivo for nulo ou indefinido
             // Substitui pontos finais seguidos de espaço por "<br>" para criar quebras de linha
@@ -57,10 +54,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 let matchesFilter = true;
 
                 // Verifica se a task corresponde aos filtros
-                if (filterDerrotar && !npc.objetivos.toLowerCase().includes("derrotar")) {
+                if (filterDerrotar && !npc.objetivos?.toLowerCase().includes("derrotar")) {
                     matchesFilter = false;
                 }
-                if (filterColetar && !npc.objetivos.toLowerCase().includes("coletar")) {
+                if (filterColetar && !npc.objetivos?.toLowerCase().includes("coletar")) {
                     matchesFilter = false;
                 }
                 if (filterLevel300 && filterLevel400) {
@@ -88,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     (
                         npc.npc.toLowerCase().includes(query) ||
                         region.toLowerCase().includes(query) ||
-                        npc.objetivos.toLowerCase().includes(query) ||
+                        npc.objetivos?.toLowerCase().includes(query) ||
                         String(npc.requisitos.level).includes(query) ||
                         String(npc.requisitos.nw_level).includes(query) ||
                         npc.recompensa.itens.some(item =>
@@ -98,10 +95,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     )
                 ) {
                     foundResults = true;
+                    const expFormatted = npc.recompensa.exp;
+                    const nwExpFormatted = npc.recompensa.nw_exp;
 
-                    const expFormatted = npc.recompensa.exp; 
-                    const nwExpFormatted = npc.recompensa.nw_exp; 
-                    
                     // Formata as recompensas
                     const recompensasFormatadas = formatarRecompensas(
                         expFormatted,
@@ -109,13 +105,14 @@ document.addEventListener("DOMContentLoaded", () => {
                         npc.recompensa.itens || []
                     );
 
-                    // Cria o card do NPC
+                    // Cria o card do NPC com o botão "Copiar Local"
                     const npcCard = `
                         <div class="npc-card">
                             <h3 class="npc-name">${npc.npc} (${region})</h3>
-                            <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivos)}</p>
                             <p class="npc-requirements"><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
+                            <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivos)}</p>
                             <p class="npc-rewards"><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
+                            <button class="copy-location-button" data-local="${npc.local || 'Local não disponível'}">Copiar Local</button>
                         </div>
                     `;
                     resultsDiv.innerHTML += npcCard;
@@ -126,5 +123,31 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!foundResults) {
             resultsDiv.innerHTML = "<p>Nenhum resultado encontrado.</p>";
         }
+
+        // Adiciona a funcionalidade de cópia após renderizar os cards
+        addCopyLocationFunctionality();
+    };
+
+    // Função para adicionar a funcionalidade de cópia
+    function addCopyLocationFunctionality() {
+        const copyButtons = document.querySelectorAll(".copy-location-button");
+
+        copyButtons.forEach(button => {
+            button.addEventListener("click", function () {
+                const local = this.getAttribute("data-local");
+
+                // Copia o texto para a área de transferência
+                navigator.clipboard.writeText(local).then(() => {
+                    // Altera o texto do botão temporariamente para indicar sucesso
+                    this.textContent = "Coordenada Copiada!";
+                    setTimeout(() => {
+                        this.textContent = "Copiar Coordenada";
+                    }, 2000);
+                }).catch(err => {
+                    console.error("Erro ao copiar a Coordenada:", err);
+                    alert("Ocorreu um erro ao copiar a Coordenada.");
+                });
+            });
+        });
     }
 });
