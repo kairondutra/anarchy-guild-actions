@@ -31,10 +31,10 @@ window.applyFilters = () => {
         return resultado;
     }
 
-    // Função para formatar os objetivos
-    function formatarObjetivo(objetivo) {
+    // Função para formatar os objetivoss
+    function formatarobjetivos(objetivos) {
         // Substitui pontos finais seguidos de espaço por "<br>" para criar quebras de linha
-        return objetivo.replace(/\. /g, ".<br>");
+        return objetivos.replace(/\. /g, ".<br>");
     }
 
 
@@ -44,10 +44,10 @@ window.applyFilters = () => {
             let matchesFilter = true;
 
             // Verifica se a task corresponde aos filtros
-            if (filterDerrotar && !npc.objetivo.toLowerCase().includes("derrotar")) {
+            if (filterDerrotar && !npc.objetivos.toLowerCase().includes("derrotar")) {
                 matchesFilter = false;
             }
-            if (filterColetar && !npc.objetivo.toLowerCase().includes("coletar")) {
+            if (filterColetar && !npc.objetivos.toLowerCase().includes("coletar")) {
                 matchesFilter = false;
             }
             if (filterLevel300 && npc.requisitos.level !== 300) {
@@ -75,7 +75,7 @@ window.applyFilters = () => {
                 (
                     npc.npc.toLowerCase().includes(query) ||
                     region.toLowerCase().includes(query) ||
-                    npc.objetivo.toLowerCase().includes(query) ||
+                    npc.objetivos.toLowerCase().includes(query) ||
                     String(npc.requisitos.level).includes(query) ||
                     String(npc.requisitos.nw_level).includes(query) ||
                     npc.recompensa.itens.some(item =>
@@ -97,7 +97,7 @@ window.applyFilters = () => {
                 const npcCard = `
                     <div class="npc-card">
                         <h3>${npc.npc} (${region})</h3>
-                        <p><strong>Objetivo:</strong><br>${formatarObjetivo(npc.objetivo)}</p>
+                        <p><strong>objetivos:</strong><br>${formatarobjetivos(npc.objetivos)}</p>
                         <p><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
                         <p><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
                     </div>
