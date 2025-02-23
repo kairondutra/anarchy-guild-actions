@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         // Função para formatar os objetivoss
-        function formatarobjetivos(objetivos) {
+        function formatarObjetivos(objetivos) {
             if (!objetivos) return ""; // Retorna vazio se o objetivo for nulo ou indefinido
             // Substitui pontos finais seguidos de espaço por "<br>" para criar quebras de linha
             return objetivos.replace(/\. /g, ".<br>");
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const npcCard = `
                         <div class="npc-card">
                             <h3 class="npc-name">${npc.npc} (${region})</h3>
-                            <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivo)}</p>
+                            <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivos)}</p>
                             <p class="npc-requirements"><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
                             <p class="npc-rewards"><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
                         </div>
