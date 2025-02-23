@@ -1179,5 +1179,319 @@
                 ]
             }
         }
+    ],
+    "Lost Island": [
+        {
+            "npc": "Ray",
+            "objetivos": "Derrotar 250 Druddigon",
+            "requisitos": {
+                "level": 400,
+                "nw_level": 50
+            },
+            "recompensa": {
+                "exp": "2.5KK",
+                "nw_exp": "37K",
+                "itens": [
+                    {
+                        "nome": "Black Nightmare Gem",
+                        "quantidade": 2
+                    }
+                ]
+            }
+        }
+    ],
+    "Nightmare Hoenn - Koga_Island": [
+        {
+            "npc": "Edward",
+            "objetivos": "Derrotar 200 Nightmare Linoone",
+            "requisitos": {
+                "level": 430,
+                "nw_level": 45
+            },
+            "recompensa": {
+                "exp": "3KK",
+                "nw_exp": "30K",
+                "itens": [
+                    {
+                        "nome": "Beast Ball",
+                        "quantidade": 3
+                    }
+                ]
+            }
+        },
+        {
+            "npc": "Drake",
+            "objetivos": "Derrotar 100 Nightmare Beautifly e 100 Nightmare Dustox",
+            "requisitos": {
+                "level": 430,
+                "nw_level": 45
+            },
+            "recompensa": {
+                "exp": "4KK",
+                "nw_exp": "40K",
+                "itens": [
+                    {
+                        "nome": "Beast Ball",
+                        "quantidade": 3
+                    }
+                ]
+            }
+        },
+        {
+            "npc": "Kidd",
+            "objetivos": "Derrotar 200 Nightmare Masquerain",
+            "requisitos": {
+                "level": 430,
+                "nw_level": 45
+            },
+            "recompensa": {
+                "exp": "3KK",
+                "nw_exp": "30K",
+                "itens": [
+                    {
+                        "nome": "Beast Ball",
+                        "quantidade": 3
+                    }
+                ]
+            }
+        }
+    ],
+    "Nightmare Hoenn - Dewford": [
+        {
+            "npc": "Hank",
+            "objetivos": "Derrotar 200 Nightmare Drifloon ou 200 Nightmare Scragy",
+            "requisitos": {
+                "level": 430,
+                "nw_level": 45
+            },
+            "recompensa": {
+                "exp": "3KK",
+                "nw_exp": "30K",
+                "itens": [
+                    {
+                        "nome": "Beast Ball",
+                        "quantidade": 3
+                    }
+                ]
+            }
+        },
+        {
+            "npc": "Thaddeus",
+            "objetivos": "Derrotar 200 Drifblim",
+            "requisitos": {
+                "level": 430,
+                "nw_level": 45
+            },
+            "recompensa": {
+                "exp": "4KK",
+                "nw_exp": "40K",
+                "itens": [
+                    {
+                        "nome": "Beast Ball",
+                        "quantidade": 3
+                    }
+                ]
+            }
+        },
+        {
+            "npc": "Sarita",
+            "objetivos": "Derrotar 200 Nightmare Scrafty",
+            "requisitos": {
+                "level": 430,
+                "nw_level": 45
+            },
+            "recompensa": {
+                "exp": "4KK",
+                "nw_exp": "40K",
+                "itens": [
+                    {
+                        "nome": "Beast Ball",
+                        "quantidade": 3
+                    }
+                ]
+            }
+        }
+    ],
+    "Nightmare Cerulean (Caverna a Noroeste do Centro Pokémon)": [
+        {
+            "npc": "Malefic Grandmaster",
+            "objetivos": "Derrotar: 100 Nightmare Banette, 100 Nightmare Misdreavus, 100 Nightmare Wizard Honchkrow, 100 Nightmare Muk, 100 Nightmare Seviper e 40 Nightmare Weezing",
+            "requisitos": {
+                "level_minimo": 400,
+                "nw_level": 30
+            },
+            "recompensa": {
+                "exp": "4KK",
+                "nw_exp": "40K",
+                "itens": [
+                    {
+                        "nome": "Cyan Nightmare Gem",
+                        "quantidade": 50
+                    }
+                ]
+            }
+        },
+        {
+            "npc": "Seavell Grandmaster",
+            "objetivos": "Derrotar: 30 Nightmare Abomasnow, 30 Nightmare Snover, 180 Nightmare Glalie, 180 Nightmare Piloswine e 180 Nightmare Empoleon",
+            "requisitos": {
+                "level_minimo": 400,
+                "nw_level": 30
+            },
+            "recompensa": {
+                "exp": "4KK",
+                "nw_exp": "40K",
+                "itens": [
+                    {
+                        "nome": "Cyan Nightmare Gem",
+                        "quantidade": 50
+                    }
+                ]
+            }
+        },
+        {
+            "npc": "Raibolt Grandmaster",
+            "objetivos": "Derrotar: 200 Nightmare Manectric, 200 Nightmare Raichu e 200 Nightmare Luxray",
+            "requisitos": {
+                "level_minimo": 400,
+                "nw_level": 30
+            },
+            "recompensa": {
+                "exp": "4KK",
+                "nw_exp": "40K",
+                "itens": [
+                    {
+                        "nome": "Cyan Nightmare Gem",
+                        "quantidade": 50
+                    }
+                ]
+            }
+        },
+        {
+            "npc": "Naturia Grandmaster",
+            "objetivos": "Derrotar: 100 Nightmare Torterra, 100 Lilligant, 100 Nightmare Shiftry, 100 Nightmare Tangela, 160 Nightmare Pinsir e 40 Nightmare Scizor",
+            "requisitos": {
+                "level_minimo": 400,
+                "nw_level": 30
+            },
+            "recompensa": {
+                "exp": "4KK",
+                "nw_exp": "40K",
+                "itens": [
+                    {
+                        "nome": "Cyan Nightmare Gem",
+                        "quantidade": 50
+                    }
+                ]
+            }
+        },
+        {
+            "npc": "Psycraft Grandmaster",
+            "objetivos": "Derrotar: 60 Nightmare Starmie, 90 Nightmare Gardevoir, 90 Nightmare Togetic, 90 Nightmare Alakazam, 90 Nightmare Gallade, 90 Nightmare Grumpig e 90 Nightmare Togekiss",
+            "requisitos": {
+                "level_minimo": 400,
+                "nw_level": 30
+            },
+            "recompensa": {
+                "exp": "4KK",
+                "nw_exp": "40K",
+                "itens": [
+                    {
+                        "nome": "Cyan Nightmare Gem",
+                        "quantidade": 50
+                    }
+                ]
+            }
+        },
+        {
+            "npc": "Gardestrike Grandmaster",
+            "objetivos": "Derrotar: 100 Nightmare Infernape, 100 Nightmare Ursaring, 100 Nightmare Miltank, 10 Nightmare Porygon2, 90 Nightmare Porygon e 100 Nightmare Machamp",
+            "requisitos": {
+                "level_minimo": 400,
+                "nw_level": 30
+            },
+            "recompensa": {
+                "exp": "4KK",
+                "nw_exp": "40K",
+                "itens": [
+                    {
+                        "nome": "Cyan Nightmare Gem",
+                        "quantidade": 50
+                    }
+                ]
+            }
+        },
+        {
+            "npc": "Volcanic Grandmaster",
+            "objetivos": "Derrotar: 200 Nightmare Ninetales, 200 Nightmare Torkoal e 200 Nightmare Houndoom",
+            "requisitos": {
+                "level_minimo": 400,
+                "nw_level": 30
+            },
+            "recompensa": {
+                "exp": "4KK",
+                "nw_exp": "40K",
+                "itens": [
+                    {
+                        "nome": "Cyan Nightmare Gem",
+                        "quantidade": 50
+                    }
+                ]
+            }
+        },
+        {
+            "npc": "Orebound Grandmaster",
+            "objetivos": "Derrotar: 180 Nightmare Sudowoodo, 180 Sandaconda, 180 Nightmare Tyranitar e 60 Nightmare Steelix",
+            "requisitos": {
+                "level_minimo": 400,
+                "nw_level": 30
+            },
+            "recompensa": {
+                "exp": "4KK",
+                "nw_exp": "40K",
+                "itens": [
+                    {
+                        "nome": "Cyan Nightmare Gem",
+                        "quantidade": 50
+                    }
+                ]
+            }
+        },
+        {
+            "npc": "Ironhard Grandmaster",
+            "objetivos": "Derrotar: 300 Nightmare Magnezone",
+            "requisitos": {
+                "level_minimo": 400,
+                "nw_level": 30
+            },
+            "recompensa": {
+                "exp": "4KK",
+                "nw_exp": "40K",
+                "itens": [
+                    {
+                        "nome": "Cyan Nightmare Gem",
+                        "quantidade": 50
+                    }
+                ]
+            }
+        },
+        {
+            "npc": "Wingeon Grandmaster",
+            "objetivos": "Derrotar: 200 Nightmare Altaria, 150 Nightmare Dragonite e 250 Nightmare Pidgeot",
+            "requisitos": {
+                "level_minimo": 400,
+                "nw_level": 30
+            },
+            "recompensa": {
+                "exp": "4KK",
+                "nw_exp": "40K",
+                "itens": [
+                    {
+                        "nome": "Cyan Nightmare Gem",
+                        "quantidade": 50
+                    }
+                ]
+            }
+        }
     ]
 }

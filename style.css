@@ -12,10 +12,6 @@ body {
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
 }
 
 h1 {
@@ -24,54 +20,37 @@ h1 {
 }
 
 #searchInput {
-  width: calc(100% - 22px);
-  max-width: 600px;
+  width: 100%;
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  box-sizing: border-box;
 }
 
 .filters {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   margin-bottom: 20px;
 }
 
 .filters label {
+  display: block;
   margin: 5px 0;
-  font-size: 14px;
-  color: #333;
 }
 
 .npc-card {
-  border: 1px solid #ccc;
-  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
   margin-bottom: 10px;
-  border-radius: 5px;
-  background-color: #f9f9f9;
-  width: 100%;
-  box-sizing: border-box;
 }
 
-.npc-name {
-  font-size: 18px;
-  color: #333;
-}
-
-.npc-objective,
-.npc-requirements,
-.npc-rewards {
-  font-size: 14px;
+.npc-card h3 {
+  margin: 0 0 10px;
   color: #555;
 }
 
-@media (max-width: 768px) {
-  #searchInput {
-    width: 100%;
-    max-width: none;
-  }
+.npc-card p {
+  margin: 5px 0;
+  color: #666;
 }
