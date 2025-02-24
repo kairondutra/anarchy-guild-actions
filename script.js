@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     let npcsData = {};
-    // Carrega os dados do JSON
     fetch("data_nwtasks.json")
         .then((response) => response.json())
         .then((data) => {
@@ -9,13 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch((error) => console.error("Erro ao carregar dados:", error));
 
-    // Função para aplicar filtros
     window.applyFilters = () => {
         const query = document.getElementById("searchInput").value.toLowerCase();
         const resultsDiv = document.getElementById("results");
         resultsDiv.innerHTML = "";
 
-        // Verifica os filtros selecionados
         const filterDerrotar = document.getElementById("filterDerrotar").checked;
         const filterColetar = document.getElementById("filterColetar").checked;
         const filterLevel300 = document.getElementById("filterLevel300").checked;
@@ -26,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let foundResults = false;
 
-        // Função para formatar as recompensas
         function formatarRecompensas(exp, nw_exp, itens) {
             let resultado = `EXP ${exp}, NW EXP ${nw_exp}`;
             if (itens.length === 0) {
@@ -41,19 +37,15 @@ document.addEventListener("DOMContentLoaded", () => {
             return resultado;
         }
 
-        // Função para formatar os objetivos
         function formatarObjetivos(objetivos) {
-            if (!objetivos) return ""; // Retorna vazio se o objetivo for nulo ou indefinido
-            // Substitui pontos finais seguidos de espaço por "<br>" para criar quebras de linha
+            if (!objetivos) return "";
             return objetivos.replace(/\. /g, ".<br>");
         }
 
-        // Itera sobre todas as regiões e NPCs
         for (const [region, npcs] of Object.entries(npcsData)) {
             npcs.forEach((npc) => {
                 let matchesFilter = true;
 
-                // Verifica se a task corresponde aos filtros
                 if (filterDerrotar && !npc.objetivos?.toLowerCase().includes("derrotar")) {
                     matchesFilter = false;
                 }
@@ -79,7 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     matchesFilter = false;
                 }
 
-                // Verifica se a consulta de texto está presente
                 if (
                     matchesFilter &&
                     (
@@ -98,23 +89,20 @@ document.addEventListener("DOMContentLoaded", () => {
                     const expFormatted = npc.recompensa.exp;
                     const nwExpFormatted = npc.recompensa.nw_exp;
 
-                    // Formata as recompensas
                     const recompensasFormatadas = formatarRecompensas(
                         expFormatted,
                         nwExpFormatted,
                         npc.recompensa.itens || []
                     );
 
-                    // Cria o card do NPC com o local clicável
-                    // Dentro da função applyFilters
                     const npcCard = `
-                    <div class="npc-card">
-                        <h3 class="npc-name">${npc.npc}</h3>
-                        <p class="npc-requirements"><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
-                        <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivos)}</p>
-                        <p class="npc-rewards"><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
-                        <button class="copy-btn" data-local="${npc.local || 'Coordenada não disponível'}">Copiar Local</button>
-                    </div>
+                        <div class="npc-card">
+                            <h3 class="npc-name">${npc.npc}</h3>
+                            <p class="npc-requirements"><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
+                            <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivos)}</p>
+                            <p class="npc-rewards"><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
+                            <button class="copy-btn" data-local="${npc.coordenada || 'Coordenadas não disponível'}">Copiar Coordenadas</button>
+                        </div>
                     `;
                     resultsDiv.innerHTML += npcCard;
                 }
@@ -125,22 +113,18 @@ document.addEventListener("DOMContentLoaded", () => {
             resultsDiv.innerHTML = "<p>Nenhum resultado encontrado.</p>";
         }
 
-        // Adiciona a funcionalidade de cópia após renderizar os cards
         addCopyLocationFunctionality();
     };
 
-    // Função para adicionar a funcionalidade de cópia
     function addCopyLocationFunctionality() {
         const copyButtons = document.querySelectorAll(".copy-btn");
-    
+
         copyButtons.forEach(button => {
             const local = button.getAttribute("data-local");
-            // Verifica se as coordenadas são inválidas
             if (local === "Coordenada não disponível") {
-                button.disabled = true; // Desativa o botão
-                button.textContent = "Sem Coordenadas"; // Muda o texto
+                button.disabled = true;
+                button.textContent = "Sem Coordenadas";
             } else {
-                // Se há coordenadas válidas, adiciona o evento de clique
                 button.addEventListener("click", function () {
                     navigator.clipboard.writeText(local).then(() => {
                         this.textContent = "Copiado!";
