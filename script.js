@@ -106,19 +106,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     );
 
                     // Cria o card do NPC com o local clicável
+                    // Dentro da função applyFilters
                     const npcCard = `
-                        <div class="npc-card">
-                            <h3 class="npc-name">${npc.npc}</h3>
-                            <p class="npc-region-local">
-                                <span class="region">Região: ${region}</span>
-                                <span class="local clickable" data-local="${npc.local || 'Coordenada não disponível'}">
-                                    Local: ${npc.local || 'Coordenada não disponível'}
-                                </span>
-                            </p>
-                            <p class="npc-requirements"><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
-                            <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivos)}</p>
-                            <p class="npc-rewards"><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
-                        </div>
+                    <div class="npc-card">
+                        <h3 class="npc-name">${npc.npc}</h3>
+                        <p class="npc-requirements"><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
+                        <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivos)}</p>
+                        <p class="npc-rewards"><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
+                        <button class="copy-btn" data-local="${npc.local || 'Coordenada não disponível'}">Copiar Local</button>
+                    </div>
                     `;
                     resultsDiv.innerHTML += npcCard;
                 }
@@ -135,24 +131,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Função para adicionar a funcionalidade de cópia
     function addCopyLocationFunctionality() {
-        const copyLocals = document.querySelectorAll(".local.clickable");
-
-        copyLocals.forEach(localElement => {
-            localElement.addEventListener("click", function () {
-                const local = this.getAttribute("data-local");
-
-                // Copia o texto para a área de transferência
-                navigator.clipboard.writeText(local).then(() => {
-                    // Altera o texto temporariamente para indicar sucesso
-                    this.textContent = "Coordenada copiada!";
-                    setTimeout(() => {
-                        this.textContent = `Local: ${local}`;
-                    }, 2000);
-                }).catch(err => {
-                    console.error("Erro ao copiar a coordenada:", err);
-                    alert("Ocorreu um erro ao copiar a coordenada.");
+        const copyButtons = document.querySelectorAll(".copy-btn");
+    
+        copyButtons.forEach(button => {
+            const local = button.getAttribute("data-local");
+            // Verifica se as coordenadas são inválidas
+            if (local === "Coordenada não disponível") {
+                button.disabled = true; // Desativa o botão
+                button.textContent = "Sem Coordenadas"; // Muda o texto
+            } else {
+                // Se há coordenadas válidas, adiciona o evento de clique
+                button.addEventListener("click", function () {
+                    navigator.clipboard.writeText(local).then(() => {
+                        this.textContent = "Copiado!";
+                        this.disabled = true;
+                        setTimeout(() => {
+                            this.textContent = "Copiar Local";
+                            this.disabled = false;
+                        }, 2000);
+                    }).catch(err => {
+                        console.error("Erro ao copiar a coordenada:", err);
+                        alert("Ocorreu um erro ao copiar a coordenada.");
+                    });
                 });
-            });
+            }
         });
     }
 });
