@@ -2,7 +2,7 @@
     "Nightmare Cerulean": [
         {
             "npc": "Missy",
-            "local": "30677, 20307, 5",
+            "coordenada": "30677, 20307, 5",
             "objetivos": "Derrotar 300 Meowstic",
             "requisitos": {
                 "level": 400,
@@ -21,7 +21,7 @@
         },
         {
             "npc": "Diomedes",
-            "local": "30675, 20302, 5",
+            "coordenada": "30675, 20302, 5",
             "objetivos": "Derrotar 80 Nightmare Spoink",
             "requisitos": {
                 "level": 300,
@@ -40,7 +40,7 @@
         },
         {
             "npc": "Kendrick",
-            "local": "30655, 20291, 5",
+            "coordenada": "30655, 20291, 5",
             "objetivos": "Derrotar 100 Alolan Diglett, 100 Alolan Meowth e 100 Alolan Grimer",
             "requisitos": {
                 "level": 300,
@@ -59,7 +59,7 @@
         },
         {
             "npc": "Yami",
-            "local": "30643, 20234, 5",
+            "coordenada": "30643, 20234, 5",
             "objetivos": "Coletar 6x Plant Essences que estão na Cosmic Island",
             "requisitos": {
                 "level": 300,
@@ -73,7 +73,7 @@
         },
         {
             "npc": "Rael",
-            "local": "30614, 20254, 5",
+            "coordenada": "30614, 20254, 5",
             "objetivos": "Derrotar 300 Wormadam (Grass), 30 Wormadam (Ground) e 30 Wormadam (Steel)",
             "requisitos": {
                 "level": 400,
@@ -92,7 +92,7 @@
         },
         {
             "npc": "Lyle",
-            "local": "30470, 20360, 5",
+            "coordenada": "30470, 20360, 5",
             "objetivos": "Derrotar 20 Mega Beedrill e 300 Nightmare Beedrill",
             "requisitos": {
                 "level": 300,
@@ -111,7 +111,7 @@
         },
         {
             "npc": "Jinky",
-            "local": "30698, 20297, 5",
+            "coordenada": "30698, 20297, 5",
             "objetivos": "Derrotar 220 Espurr",
             "requisitos": {
                 "level": 300,
@@ -132,7 +132,7 @@
     "Wastelands": [
         {
             "npc": "Reginald",
-            "local": "30647, 20369, 4",
+            "coordenada": "30647, 20369, 4",
             "objetivos": "Derrotar 160 Silicobra",
             "requisitos": {
                 "level": 300,
@@ -153,7 +153,7 @@
     "Hurricane Islands": [
         {
             "npc": "Vance",
-            "local": "30684, 20100, 4",
+            "coordenada": "30684, 20100, 4",
             "objetivos": "Derrotar 200 Galarian Farfetch'd",
             "requisitos": {
                 "level": 300,
@@ -174,7 +174,7 @@
     "Cosmic Islands": [
         {
             "npc": "Atem",
-            "local": "30892, 20118, 4",
+            "coordenada": "30892, 20118, 4",
             "objetivos": "1º Derrotar 250 Lunatone e 250 Solrock; 2º Entregar 100 Sun Pieces e 100 Moon Pieces",
             "requisitos": {
                 "level": 300,
@@ -200,7 +200,7 @@
     "Green Island": [
         {
             "npc": "Berg",
-            "local": "30324, 20162, 5",
+            "coordenada": "30324, 20162, 5",
             "objetivos": "Derrotar 220 Rockruff",
             "requisitos": {
                 "level": 300,
@@ -219,7 +219,7 @@
         },
         {
             "npc": "Mit",
-            "local": "30335, 20155, 5",
+            "coordenada": "30335, 20155, 5",
             "objetivos": "Derrotar 300 Lycanroc ou 300 Lycanroc Midnight Form",
             "requisitos": {
                 "level": 400,
@@ -240,7 +240,7 @@
     "Wildwind Island": [
         {
             "npc": "Michael",
-            "local": "30474, 20100, 5",
+            "coordenada": "30474, 20100, 5",
             "objetivos": "Derrotar 140 Mantyke",
             "requisitos": {
                 "level": 300,
@@ -259,7 +259,7 @@
         },
         {
             "npc": "Phelps",
-            "local": "30478, 20108, 3",
+            "coordenada": "30478, 20108, 3",
             "objetivos": "Derrotar 300 Mantine",
             "requisitos": {
                 "level": 400,
@@ -280,7 +280,7 @@
     "Lightstorm Island": [
         {
             "npc": "Wilfor",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 200 Galarian Darumaka",
             "requisitos": {
                 "level": 300,
@@ -299,7 +299,7 @@
         },
         {
             "npc": "Wilper",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 220 Galarian Darmanitan",
             "requisitos": {
                 "level": 400,
@@ -320,7 +320,7 @@
     "Nightmare Pewter": [
         {
             "npc": "Bella",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 80 Small Sentinels e 10 Sentinels",
             "requisitos": {
                 "level": 300,
@@ -339,7 +339,7 @@
         },
         {
             "npc": "Nicholas",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 220 Nightmare Farfetch'd",
             "requisitos": {
                 "level": 300,
@@ -358,7 +358,7 @@
         },
         {
             "npc": "Frank",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 300 Klinklang",
             "requisitos": {
                 "level": 400,
@@ -377,7 +377,7 @@
         },
         {
             "npc": "Derek",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 150 Mecha Meganium e 150 Mecha Venusaur",
             "requisitos": {
                 "level": 400,
@@ -396,7 +396,7 @@
         },
         {
             "npc": "Fideliz",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 150 Mecha Feraligatr e 150 Mecha Blastoise",
             "requisitos": {
                 "level": 400,
@@ -415,7 +415,7 @@
         },
         {
             "npc": "Jesant",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 150 Mecha Typhlosion e 150 Mecha Charizard",
             "requisitos": {
                 "level": 400,
@@ -434,7 +434,7 @@
         },
         {
             "npc": "Geoffrey",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 100 Klink e 40 Klang",
             "requisitos": {
                 "level": 300,
@@ -453,7 +453,7 @@
         },
         {
             "npc": "Serenity",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Parte 1: Coletar os itens: Central Processing Unit, Blueprints, Gears, Toolbox e Apricorn. Aguarde 2 minutos e converse novamente com o NPC. Parte 2: Coletar as partes da Nightmare Ball. Aguarde 5 minutos e converse novamente para receber sua recompensa.",
             "requisitos": {
                 "level": 400,
@@ -472,7 +472,7 @@
         },
         {
             "npc": "Chayenne",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 220 Braviary",
             "requisitos": {
                 "level": 400,
@@ -491,7 +491,7 @@
         },
         {
             "npc": "Clay",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 220 Galarian Meowth",
             "requisitos": {
                 "level": 300,
@@ -510,7 +510,7 @@
         },
         {
             "npc": "Tom",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 250 Perrserker",
             "requisitos": {
                 "level": 400,
@@ -529,7 +529,7 @@
         },
         {
             "npc": "Lukas",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 80 Carvanha",
             "requisitos": {
                 "level": 300,
@@ -548,7 +548,7 @@
         },
         {
             "npc": "Joseh",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 80 Barboach",
             "requisitos": {
                 "level": 300,
@@ -567,7 +567,7 @@
         },
         {
             "npc": "Itzel",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 220 Rufflet",
             "requisitos": {
                 "level": 300,
@@ -588,7 +588,7 @@
     "Nightmare Lavender": [
         {
             "npc": "Karl",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 300 Nightmare Machoke e 15 Shiny Machoke",
             "requisitos": {
                 "level": 300,
@@ -607,7 +607,7 @@
         },
         {
             "npc": "Wimhof",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 300 Weavile",
             "requisitos": {
                 "level": 400,
@@ -626,7 +626,7 @@
         },
         {
             "npc": "Jon",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 150 Garchomp",
             "requisitos": {
                 "level": 400,
@@ -645,7 +645,7 @@
         },
         {
             "npc": "Joshua",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 50 Nightmare Sneasel",
             "requisitos": {
                 "level": 300,
@@ -664,7 +664,7 @@
         },
         {
             "npc": "Leonard",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 160 Nightmare Cloyster",
             "requisitos": {
                 "level": 300,
@@ -683,7 +683,7 @@
         },
         {
             "npc": "Kyle",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 200 Snorunt",
             "requisitos": {
                 "level": 300,
@@ -702,7 +702,7 @@
         },
         {
             "npc": "Bradford",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 25 Dragonair, 25 Gabite e 25 Shelgon",
             "requisitos": {
                 "level": 300,
@@ -721,7 +721,7 @@
         },
         {
             "npc": "Russel",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 55 Bagon, 55 Gible e 55 Dratini",
             "requisitos": {
                 "level": 300,
@@ -742,7 +742,7 @@
     "Nightmare Pallet": [
         {
             "npc": "Dekah",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 150 Gallade, 150 Honchkrow, 150 Empoleon, 150 Infernape, 150 Torterra e 150 Luxray",
             "requisitos": {
                 "level": 400,
@@ -761,7 +761,7 @@
         },
         {
             "npc": "Matias",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 160 Nightmare Shuppets",
             "requisitos": {
                 "level": 300,
@@ -780,7 +780,7 @@
         },
         {
             "npc": "Anny",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 200 Darkrai Minion",
             "requisitos": {
                 "level": 300,
@@ -799,7 +799,7 @@
         },
         {
             "npc": "Carl",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 150 Sharpedo",
             "requisitos": {
                 "level": 400,
@@ -818,7 +818,7 @@
         },
         {
             "npc": "Brashear",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 150 Whiscash",
             "requisitos": {
                 "level": 400,
@@ -839,7 +839,7 @@
     "Fire Island": [
         {
             "npc": "Malone",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 150 Pyroar Female",
             "requisitos": {
                 "level": 400,
@@ -858,7 +858,7 @@
         },
         {
             "npc": "Donl",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 200 Simisear",
             "requisitos": {
                 "level": 400,
@@ -877,7 +877,7 @@
         },
         {
             "npc": "Wilson",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 60 Magby e 40 Pansear",
             "requisitos": {
                 "level": 300,
@@ -898,7 +898,7 @@
     "Nightmare Cinnabar": [
         {
             "npc": "Theobald",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 330 Alolan Persian e 330 Alolan Muk",
             "requisitos": {
                 "level": 400,
@@ -917,7 +917,7 @@
         },
         {
             "npc": "Tobby",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 50 Nightmare Grimer",
             "requisitos": {
                 "level": 300,
@@ -936,7 +936,7 @@
         },
         {
             "npc": "Neves",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 220 Goomy ou 220 Sliggoo",
             "requisitos": {
                 "level": 300,
@@ -955,7 +955,7 @@
         },
         {
             "npc": "Kellner",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 220 Goodra",
             "requisitos": {
                 "level": 400,
@@ -976,7 +976,7 @@
     "Nightmare Fuchsia": [
         {
             "npc": "Hofs",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 180 Eelektross",
             "requisitos": {
                 "level": 400,
@@ -996,7 +996,7 @@
         },
         {
             "npc": "Celeste",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 40 Small Sentinels e 5 Sentinels",
             "requisitos": {
                 "level": 300,
@@ -1015,7 +1015,7 @@
         },
         {
             "npc": "Lassy",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 160 Litleo",
             "requisitos": {
                 "level": 300,
@@ -1034,7 +1034,7 @@
         },
         {
             "npc": "Alexis",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 300 Cranidos",
             "requisitos": {
                 "level": 300,
@@ -1053,7 +1053,7 @@
         },
         {
             "npc": "Oona",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 300 Rampardos",
             "requisitos": {
                 "level": 400,
@@ -1072,7 +1072,7 @@
         },
         {
             "npc": "Waldo",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 300 Elekids",
             "requisitos": {
                 "level": 300,
@@ -1091,7 +1091,7 @@
         },
         {
             "npc": "Brandon",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 20 Tynamos e 50 Eelektriks",
             "requisitos": {
                 "level": 300,
@@ -1112,7 +1112,7 @@
     "Seafoam Island": [
         {
             "npc": "Beckett",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 50 Petilil e 50 Nightmare Nuzleaf",
             "requisitos": {
                 "level": 300,
@@ -1131,7 +1131,7 @@
         },
         {
             "npc": "Afonso",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 450 Gogoat",
             "requisitos": {
                 "level": 400,
@@ -1150,7 +1150,7 @@
         },
         {
             "npc": "Dale",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 80 Skiddo",
             "requisitos": {
                 "level": 300,
@@ -1169,7 +1169,7 @@
         },
         {
             "npc": "Dillon",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 120 Nightmare Ralts e 20 Nightmare Kirlia",
             "requisitos": {
                 "level": 300,
@@ -1188,7 +1188,7 @@
         },
         {
             "npc": "Nikolaj",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 300 Alolan Raichu",
             "requisitos": {
                 "level": 400,
@@ -1207,7 +1207,7 @@
         },
         {
             "npc": "Karlo",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 220 Applin",
             "requisitos": {
                 "level": 300,
@@ -1226,7 +1226,7 @@
         },
         {
             "npc": "Zeph",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 300 Flapple ou 300 Appletun",
             "requisitos": {
                 "level": 400,
@@ -1247,7 +1247,7 @@
     "Lost Island": [
         {
             "npc": "Ray",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 250 Druddigon",
             "requisitos": {
                 "level": 400,
@@ -1268,7 +1268,7 @@
     "Nightmare Hoenn - Koga_Island": [
         {
             "npc": "Edward",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 200 Nightmare Linoone",
             "requisitos": {
                 "level": 430,
@@ -1287,7 +1287,7 @@
         },
         {
             "npc": "Drake",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 100 Nightmare Beautifly e 100 Nightmare Dustox",
             "requisitos": {
                 "level": 430,
@@ -1306,7 +1306,7 @@
         },
         {
             "npc": "Kidd",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 200 Nightmare Masquerain",
             "requisitos": {
                 "level": 430,
@@ -1327,7 +1327,7 @@
     "Nightmare Hoenn - Dewford": [
         {
             "npc": "Hank",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 200 Nightmare Drifloon ou 200 Nightmare Scragy",
             "requisitos": {
                 "level": 430,
@@ -1346,7 +1346,7 @@
         },
         {
             "npc": "Thaddeus",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 200 Drifblim",
             "requisitos": {
                 "level": 430,
@@ -1365,7 +1365,7 @@
         },
         {
             "npc": "Sarita",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar 200 Nightmare Scrafty",
             "requisitos": {
                 "level": 430,
@@ -1386,7 +1386,7 @@
     "Nightmare Cerulean (Caverna a Noroeste do Centro Pokémon)": [
         {
             "npc": "Malefic Grandmaster",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar: 100 Nightmare Banette, 100 Nightmare Misdreavus, 100 Nightmare Wizard Honchkrow, 100 Nightmare Muk, 100 Nightmare Seviper e 40 Nightmare Weezing",
             "requisitos": {
                 "level_minimo": 400,
@@ -1405,7 +1405,7 @@
         },
         {
             "npc": "Seavell Grandmaster",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar: 30 Nightmare Abomasnow, 30 Nightmare Snover, 180 Nightmare Glalie, 180 Nightmare Piloswine e 180 Nightmare Empoleon",
             "requisitos": {
                 "level_minimo": 400,
@@ -1424,7 +1424,7 @@
         },
         {
             "npc": "Raibolt Grandmaster",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar: 200 Nightmare Manectric, 200 Nightmare Raichu e 200 Nightmare Luxray",
             "requisitos": {
                 "level_minimo": 400,
@@ -1443,7 +1443,7 @@
         },
         {
             "npc": "Naturia Grandmaster",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar: 100 Nightmare Torterra, 100 Lilligant, 100 Nightmare Shiftry, 100 Nightmare Tangela, 160 Nightmare Pinsir e 40 Nightmare Scizor",
             "requisitos": {
                 "level_minimo": 400,
@@ -1462,7 +1462,7 @@
         },
         {
             "npc": "Psycraft Grandmaster",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar: 60 Nightmare Starmie, 90 Nightmare Gardevoir, 90 Nightmare Togetic, 90 Nightmare Alakazam, 90 Nightmare Gallade, 90 Nightmare Grumpig e 90 Nightmare Togekiss",
             "requisitos": {
                 "level_minimo": 400,
@@ -1481,7 +1481,7 @@
         },
         {
             "npc": "Gardestrike Grandmaster",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar: 100 Nightmare Infernape, 100 Nightmare Ursaring, 100 Nightmare Miltank, 10 Nightmare Porygon2, 90 Nightmare Porygon e 100 Nightmare Machamp",
             "requisitos": {
                 "level_minimo": 400,
@@ -1500,7 +1500,7 @@
         },
         {
             "npc": "Volcanic Grandmaster",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar: 200 Nightmare Ninetales, 200 Nightmare Torkoal e 200 Nightmare Houndoom",
             "requisitos": {
                 "level_minimo": 400,
@@ -1519,7 +1519,7 @@
         },
         {
             "npc": "Orebound Grandmaster",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar: 180 Nightmare Sudowoodo, 180 Sandaconda, 180 Nightmare Tyranitar e 60 Nightmare Steelix",
             "requisitos": {
                 "level_minimo": 400,
@@ -1538,7 +1538,7 @@
         },
         {
             "npc": "Ironhard Grandmaster",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar: 300 Nightmare Magnezone",
             "requisitos": {
                 "level_minimo": 400,
@@ -1557,7 +1557,7 @@
         },
         {
             "npc": "Wingeon Grandmaster",
-            "local": "Coordenada Indisponivel",
+            "coordenada": "",
             "objetivos": "Derrotar: 200 Nightmare Altaria, 150 Nightmare Dragonite e 250 Nightmare Pidgeot",
             "requisitos": {
                 "level_minimo": 400,
