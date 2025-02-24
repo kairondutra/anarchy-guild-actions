@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <p class="npc-requirements"><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
                             <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivos)}</p>
                             <p class="npc-rewards"><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
-                            <button class="copy-btn" data-local="${npc.coordenada || 'Coordenadas não disponível'}">Copiar Coordenadas</button>
+                            <button class="copy-btn" data-local="${npc.coordenadas || 'Coordenada não disponível'}">Copiar Local</button>
                         </div>
                     `;
                     resultsDiv.innerHTML += npcCard;
@@ -121,10 +121,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
         copyButtons.forEach(button => {
             const local = button.getAttribute("data-local");
+
+            // Remove eventos de clique existentes
+            button.removeEventListener("click", button.onclick);
+            button.onclick = null;
+
+            // Verifica se as coordenadas são inválidas
             if (local === "Coordenada não disponível") {
                 button.disabled = true;
                 button.textContent = "Sem Coordenadas";
             } else {
+                button.disabled = false;
+                button.textContent = "Copiar Coordenada";
                 button.addEventListener("click", function () {
                     navigator.clipboard.writeText(local).then(() => {
                         this.textContent = "Copiado!";
