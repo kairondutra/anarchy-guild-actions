@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <p class="npc-requirements"><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
                             <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivos)}</p>
                             <p class="npc-rewards"><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
-                            <button class="copy-btn" data-local="${npc.coordenadas || 'Coordenada não disponível'}">Copiar Local</button>
+                            <button class="copy-btn" data-local="${npc.coordenadas || 'Coordenada não disponível'}">Copiar Coordenadas</button>
                         </div>
                     `;
                     resultsDiv.innerHTML += npcCard;
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         this.textContent = "Copiado!";
                         this.disabled = true;
                         setTimeout(() => {
-                            this.textContent = "Copiar Local";
+                            this.textContent = "Copiar Coordenadas";
                             this.disabled = false;
                         }, 2000);
                     }).catch(err => {

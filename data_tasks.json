@@ -1,0 +1,2026 @@
+{
+    "kanto": {
+        "cinnabar": [
+            {
+                "npc": "Susan",
+                "location": "Em frente à Lan House",
+                "objective": "Entregar: 1 Chocolate Bar",
+                "reward": "$30"
+            },
+            {
+                "npc": "Ida",
+                "location": "No corredor de uma casa, próximo ao mar",
+                "objective": "Entregar: 10 Fox Tail e 15 Fire Horse Foot",
+                "reward": "$35.130"
+            },
+            {
+                "npc": "Sid",
+                "location": "Subindo as escadas das casas até o último andar",
+                "objective": "Entregar: 20 Fire Tail e 30 Giant Piece of Fur",
+                "reward": "$24.120"
+            },
+            {
+                "npc": "Waldo",
+                "location": "Bueiro de Cinnabar",
+                "objective": "Entregar: 10 Rat Tail e 20 Bat Wing",
+                "reward": "$6.300"
+            },
+            {
+                "npc": "Carli",
+                "location": "Próximo ao NPC Samir, que vende cachorro-quente",
+                "objective": "Derrotar: 30 Rattata e 30 Zubat",
+                "reward": "4.125 EXP"
+            },
+            {
+                "npc": "Joshua",
+                "location": "Em cima do telhado de uma casa",
+                "objective": "Derrotar: 90 Charizard, 60 Charmeleon e 60 Charmander",
+                "reward": "162.000 EXP"
+            },
+            {
+                "npc": "Charlotte",
+                "location": "Passando pelo NPC Samir e entrando na caverna",
+                "objective": "Derrotar: 30 Ponyta e 30 Vulpix",
+                "reward": "11.812,5 EXP"
+            },
+            {
+                "npc": "Royce",
+                "location": "Próximo ao respawn de Arcanine",
+                "objective": "Derrotar: 90 Magmar",
+                "reward": "121.500 EXP"
+            }
+        ],
+        "cerulean": [
+            {
+                "npc": "Penny",
+                "location": "À esquerda do market de Cerulean",
+                "objective": "Entregar: 20 Magikarp Fin e 5 Bitten Apple",
+                "reward": "8 Medicine, 2 Revive, 4 Small Potion e 10 Sweet Milk Churros"
+            },
+            {
+                "npc": "Dominique",
+                "location": "Praia ao norte do Centro Pokémon",
+                "objective": "Entregar: 1 Sticky Hand, 1 Snake Tail, 1 Gosme e 1 Venom Flute",
+                "reward": "$1.062"
+            },
+            {
+                "npc": "Claire",
+                "location": "Saída leste da cidade",
+                "objective": "Trocar: Nidoranma",
+                "reward": "Nidoranfe"
+            },
+            {
+                "npc": "Hebert",
+                "location": "Sudoeste do Centro Pokémon, ao lado da NPC Fiona",
+                "objective": "Derrotar: 120 Beedrill",
+                "reward": "33.750 EXP"
+            },
+            {
+                "npc": "Fiona",
+                "location": "Sudoeste do Centro Pokémon, ao lado do NPC Hebert",
+                "objective": "Derrotar: 30 Snorlax",
+                "reward": "60.000 EXP"
+            },
+            {
+                "npc": "Oslin",
+                "location": "Loja de roupas à esquerda do Centro Pokémon",
+                "objective": "Entregar: 5 Belt of Champion",
+                "reward": "$15.000"
+            },
+            {
+                "npc": "Leny",
+                "location": "Próximo ao Farol de Bill",
+                "objective": "Entregar: 10 Farfetch'd Stick e 10 Colored Feather",
+                "reward": "$14.040"
+            },
+            {
+                "npc": "Cleston",
+                "location": "Diglett de Cerulean, saída da cidade",
+                "objective": "Derrotar: 30 Diglett, 30 Sandshrew e 30 Cubone",
+                "reward": "16.875 EXP"
+            },
+            {
+                "npc": "Vivian Ward",
+                "location": "Nos Diglett à direita do Centro Pokémon, próximo aos Sandslashs",
+                "objective": "Entregar: 15 Armadillo Claw e 15 Bone",
+                "reward": "$12.150"
+            },
+            {
+                "npc": "Xavier",
+                "location": "Ao norte da casa de Pokémon elétrico na floresta entre Cerulean e Saffron",
+                "objective": "Derrotar: 60 Golem, 60 Rhydon, 60 Marowak e 60 Sandslash",
+                "reward": "256.500 EXP"
+            },
+            {
+                "npc": "Jeremy Clarkson",
+                "location": "Ao norte da casa de Pokémon elétrico na floresta entre Cerulean e Saffron",
+                "objective": "Entregar: 20 Piece of Diglett",
+                "reward": "$4.680"
+            },
+            {
+                "npc": "Lil J",
+                "location": "Ao norte da casa de Pokémon elétrico na floresta entre Cerulean e Saffron",
+                "objective": "Entregar: 10 Electric Tail e 10 Magnet",
+                "reward": "$32.700"
+            },
+            {
+                "npc": "Mary",
+                "location": "Em cima do Ginásio de Cerulean",
+                "objective": "Entregar: 20 Strange Thing",
+                "reward": "$8.820"
+            }
+        ],
+        "viridian": [
+            {
+                "npc": "Paul",
+                "location": "Ao lado direito do market de Viridian",
+                "objective": "Derrotar: 15 Rattata e 5 Zubat",
+                "reward": "920 EXP"
+            },
+            {
+                "npc": "Mia",
+                "location": "Ao sudeste do market de Viridian",
+                "objective": "Pegar bags of pollen com uma velha senhora (Vera) na floresta de Viridian",
+                "reward": "$400 e 2.500 EXP"
+            },
+            {
+                "npc": "Vinni",
+                "location": "Em frente ao Ginásio de Viridian",
+                "objective": "Entregar: 3 Bitten Apple",
+                "reward": "$80"
+            },
+            {
+                "npc": "Yara",
+                "location": "Ao redor do lado à direita do Centro Pokémon",
+                "objective": "Entregar: Metapod",
+                "reward": "Diglett"
+            },
+            {
+                "npc": "Lilly",
+                "location": "Ao nordeste do Centro Pokémon",
+                "objective": "Requisito: Nível 60, Entregar: Mr. Mime",
+                "reward": "Chansey"
+            },
+            {
+                "npc": "Peta",
+                "location": "No pier de pesca, próximo ao NPC Guru",
+                "objective": "Entregar: 15 Water Gem e 1 Water Pendant",
+                "reward": "$100"
+            },
+            {
+                "npc": "Little Louie",
+                "location": "Na saída ao norte da cidade",
+                "objective": "Derrotar: 10 Weedle e 10 Kakuna",
+                "reward": "$80 e 1.920 EXP"
+            },
+            {
+                "npc": "Meiko",
+                "location": "Ao oeste da saída norte da cidade",
+                "objective": "Derrotar: 10 Caterpie e 10 Metapod",
+                "reward": "$80 e 1.920 EXP"
+            },
+            {
+                "npc": "Hammond",
+                "location": "Floresta de Viridian, próximo à entrada da cidade de Pewter",
+                "objective": "Derrotar: 5 Butterfree e 5 Beedrill",
+                "reward": "3.080 EXP"
+            },
+            {
+                "npc": "Vera",
+                "location": "Floresta de Viridian, próximo à entrada da cidade de Pewter",
+                "objective": "Entregar: 10 Pot of Moss Bug",
+                "reward": "500 EXP e 2 Bag of Pollen"
+            }
+        ],
+        "saffron": [
+            {
+                "npc": "Brian May",
+                "location": "Próximo ao Ginásio",
+                "objective": "Entregar: 15 Strange Rock e 15 Horn Drill",
+                "reward": "$14.715"
+            },
+            {
+                "npc": "Cheese",
+                "location": "No lago ao norte do Centro Pokémon",
+                "objective": "Entregar: 35 Linearly Guided Hypnosis e 20 Psychic Spoon",
+                "reward": "$53.850"
+            },
+            {
+                "npc": "Mikey",
+                "location": "Próximo à loja de eletroeletrônicos",
+                "objective": "Trocar: Gastly",
+                "reward": "Abra"
+            },
+            {
+                "npc": "Gil-Galad",
+                "location": "Esquerda da cidade (local de caça de Pokémon do tipo planta)",
+                "objective": "Entregar: 15 Mushroom",
+                "reward": "$5.130"
+            },
+            {
+                "npc": "Jennifer",
+                "location": "Ao lado direito do Centro Pokémon, dentro de Sliph Co.",
+                "objective": "Entregar: 20 Fish Fin e 10 Gem Star",
+                "reward": "$7.020"
+            }
+        ],
+        "pewter": [
+            {
+                "npc": "Finn",
+                "location": "Extremo nordeste da cidade, afastado do restante dos edifícios",
+                "objective": "Entregar: 65 Stone Orb",
+                "reward": "Rock Stone"
+            },
+            {
+                "npc": "Walter",
+                "location": "Esquerda de Pewter, na entrada da underwater",
+                "objective": "Derrotar: 60 Tentacruel, 60 Golduck e 60 Seadra",
+                "reward": "158.625 EXP"
+            },
+            {
+                "npc": "Yvette",
+                "location": "Sul do Centro Pokémon de Pewter",
+                "objective": "Derrotar: 30 Paras",
+                "reward": "1.350 EXP"
+            },
+            {
+                "npc": "Peter",
+                "location": "Norte do Centro Pokémon",
+                "objective": "Capturar: Magnemite",
+                "reward": "$500 e 3.000 EXP"
+            },
+            {
+                "npc": "Oscar",
+                "location": "Esquerda do Centro Pokémon, ao lado do NPC Hugh",
+                "objective": "Derrotar: 10 Pidgeotto e 30 Pidgey",
+                "reward": "3.600 EXP"
+            },
+            {
+                "npc": "Ashley",
+                "location": "Norte do Centro Pokémon",
+                "objective": "Trocar: Clefairy",
+                "reward": "Jigglypuff"
+            },
+            {
+                "npc": "Billy",
+                "location": "Entrada do Ginásio",
+                "objective": "Capturar: Burmy e Munchlax",
+                "reward": "Munchlax Toy e 2 Heart Stone"
+            },
+            {
+                "npc": "Forrest",
+                "location": "Entrada do Ginásio",
+                "objective": "Derrotar: 30 Burmy e 50 Munchlax",
+                "reward": "108.000 EXP"
+            },
+            {
+                "npc": "Arnaldo",
+                "location": "Museu da Ciência de Pewter",
+                "objective": "Derrotar 300 Pokémon da seguinte lista: Anorith, Cranidos, Lileep, Omanyte, Kabuto, Shieldon, Tirtouga e Archen",
+                "reward": "400.000 EXP"
+            },
+            {
+                "npc": "Ismar",
+                "location": "Museu da Ciência de Pewter",
+                "objective": "Derrotar 500 Pokémon da seguinte lista: Armaldo, Rampardos, Cradily, Omastar, Kabutops, Bastiodon, Carracosta e Archeops",
+                "reward": "1.200.000 EXP"
+            },
+            {
+                "npc": "Suspicious Bush",
+                "location": "Dentro do Santuário de Fósseis",
+                "objective": "Capturar: Anorith, Archen, Archeops, Armaldo, Bastiodon, Carracosta, Cradily, Kabuto, Kabutops, Lileep, Omanyte, Omastar, Rampardos, Shieldon, Cranidos e Tirtouga",
+                "reward": "Registro de captura do Pokémon Aerodactyl"
+            }
+        ],
+        "vermilion": [
+            {
+                "npc": "The Godfather",
+                "location": "Dentro do Centro Pokémon",
+                "objective": "Entregar: 8 Blue Vines",
+                "reward": "$2.952"
+            },
+            {
+                "npc": "Benjamin",
+                "location": "Proximo ao Centro Pokémon",
+                "objective": "Derrotar: 20 Bellsprout e 45 Gloom",
+                "reward": "13.556,25 EXP"
+            },
+            {
+                "npc": "The Tank",
+                "location": "Direita do Centro Pokémon",
+                "objective": "Entregar: 20 Plant Tail",
+                "reward": "$6.840"
+            },
+            {
+                "npc": "Bia",
+                "location": "Lago ao Norte da Cidade",
+                "objective": "Derrotar: 30 Tangela, 30 Vileplume e 30 Victreebel",
+                "reward": "54.000 EXP"
+            },
+            {
+                "npc": "Bob",
+                "location": "Esquerda do Centro Pokémon",
+                "objective": "Entregar: 1 Pot Of Lava",
+                "reward": "$85"
+            },
+            {
+                "npc": "Delilah",
+                "location": "Esquerda do Centro Pokémon",
+                "objective": "Derrotar: 90 Venusaur, 60 Ivysaur e 60 Bulbasaur",
+                "reward": "162.000 EXP"
+            },
+            {
+                "npc": "Helena",
+                "location": "Sul do Centro Pokémon",
+                "objective": "Entregar: 2 Microphone",
+                "reward": "$800"
+            },
+            {
+                "npc": "Beanie",
+                "location": "Próximo a Entrada dos pokémon do tipo pedra",
+                "objective": "Entregar: 20 Plant Foot",
+                "reward": "$7.380"
+            }
+        ],
+        "lavender": [
+            {
+                "npc": "Colin",
+                "location": "Casa ao sul do Centro Pokémon",
+                "objective": "Entregar: 5 Bat Wing, 5 Nail, 3 Tooth, 3 Mushroom e 3 Fur",
+                "reward": "Venom Stone"
+            },
+            {
+                "npc": "Boniek",
+                "location": "No cemitério, ao lado direito do Centro Pokémon",
+                "objective": "Derrotar: 90 Gengar, 60 Haunter e 90 Gastly",
+                "reward": "162.000 EXP"
+            },
+            {
+                "npc": "Sue",
+                "location": "Dentro do Cemitério, próximo ao NPC Kowalski",
+                "objective": "Entregar: 20 Miss Traces",
+                "reward": "$18.600"
+            },
+            {
+                "npc": "Galadriel",
+                "location": "Ponte Lavender/Vermilion/Fuchsia",
+                "objective": "Entregar: 2 Luck Medallion e 5 Wool Ball",
+                "reward": "$7.035"
+            },
+            {
+                "npc": "Hubby",
+                "location": "Centro Pokémon da Ponte",
+                "objective": "Entregar: 25 Traces Of Ghost",
+                "reward": "$13.500"
+            },
+            {
+                "npc": "Sir Nigel",
+                "location": "Centro Pokémon da Ponte",
+                "objective": "Derrotar: 60 Alakazam, 60 Hypno e 30 Persian",
+                "reward": "131.625 EXP"
+            },
+            {
+                "npc": "Sucellus",
+                "location": "Centro Pokémon da Ponte",
+                "objective": "Derrotar: 150 Gyarados",
+                "reward": "202.500 EXP"
+            }
+        ],
+        "celadon": [
+            {
+                "npc": "Susy",
+                "location": "Ao lado do Centro Pokémon de Celadon",
+                "objective": [
+                    "Parte 1: Entregar 135 Leaves",
+                    "Parte 2: Entregar 30 Nails"
+                ],
+                "reward": [
+                    "Parte 1: Leaf Stone",
+                    "Parte 2: $620"
+                ]
+            },
+            {
+                "npc": "Deacon",
+                "location": "Caverna dos Zubat/Golbat no bueiro entre Saffron/Celadon",
+                "objective": "Derrotar: 60 Golbat e 60 Zubat",
+                "reward": "30.375 EXP"
+            },
+            {
+                "npc": "Kelly",
+                "location": "Praia",
+                "objective": "Derrotar: 3000 Magikarp",
+                "reward": "18.000 EXP"
+            },
+            {
+                "npc": "J. May",
+                "location": "Dentro do Cassino",
+                "objective": "Entregar: 1 Pizza",
+                "reward": "$100"
+            },
+            {
+                "npc": "Marinetti",
+                "location": "Praia",
+                "objective": "Derrotar: 15 Slowbro, 30 Wartortle e 30 Starmie",
+                "reward": "51.468,75 EXP"
+            },
+            {
+                "npc": "Julie",
+                "location": "Térreo do Shopping Center",
+                "objective": "Derrotar: 20 Pidgey e 20 Rattata",
+                "reward": "1.400 EXP"
+            },
+            {
+                "npc": "Milburn",
+                "location": "Terceiro andar do Shopping Center",
+                "objective": "Entregar: 8 Squirtle Hull, 15 Crab Claw e 15 Locksmith Of Shell",
+                "reward": "$8.298"
+            },
+            {
+                "npc": "St.Pierre",
+                "location": "Ao sul do cassino, subindo a escada de algumas casas",
+                "objective": "Entregar: 30 Gyarados Tail e 500 Magikarp Fin",
+                "reward": "$73.500"
+            }
+        ],
+        "fuchsia": [
+            {
+                "npc": "Guma",
+                "location": "Na entrada do Safari",
+                "objective": "Entregar: 8 Pinsir Horn",
+                "reward": "$2.400"
+            },
+            {
+                "npc": "Prof. Henry Walton Jones",
+                "location": "Na entrada do Safari",
+                "objective": "Entregar: 10 Scythe",
+                "reward": "$30.000"
+            },
+            {
+                "npc": "Brendam",
+                "location": "Próximo ao NPC Tabata, ao lado direito do Centro Pokémon",
+                "objective": "Entregar: 1 Luck Medallion e 10 Wool Ball",
+                "reward": "$10.000"
+            },
+            {
+                "npc": "Watto",
+                "location": "Entrada leste da cidade",
+                "objective": "Entregar: 10 Bug Antenna e 2 Bug Venom",
+                "reward": "$5.106"
+            },
+            {
+                "npc": "Aya",
+                "location": "Dentro do Centro Pokémon",
+                "objective": "Entregar: 1 Iron Bracelet",
+                "reward": "1 Punch Machine e 1 Kick Machine"
+            },
+            {
+                "npc": "Honey",
+                "location": "Proximo ao respawn de Dodrio e Tauros",
+                "objective": "Entregar: 10 Bull Tail e 10 Dodrio Feather",
+                "reward": "$6.120"
+            },
+            {
+                "npc": "Moody",
+                "location": "Norte do Centro Pokémon",
+                "objective": "Entregar: 10 Tongue e 10 Kanga Ear",
+                "reward": "$17.700"
+            },
+            {
+                "npc": "Lecy",
+                "location": "Norte do Centro Pokémon",
+                "objective": "Derrotar: 150 Tauros",
+                "reward": "75.937 EXP"
+            },
+            {
+                "npc": "Barney",
+                "location": "Safari - Entrada do respawn de Nidoking/Nidoqueen",
+                "objective": "Derrotar: 90 Nidoqueen e 90 Nidoking",
+                "reward": "162.000 EXP"
+            },
+            {
+                "npc": "Lumpy",
+                "location": "Próximo ao respawn de Farfetch'd",
+                "objective": "Entregar: 10 Farfetch'd Stick",
+                "reward": "$7.000"
+            },
+            {
+                "npc": "Merlow",
+                "location": "Respawn norte de Mr. Mime",
+                "objective": "Derrotar: 60 Mr. Mime",
+                "reward": "47.250 EXP"
+            },
+            {
+                "npc": "Mr. Anderson",
+                "location": "Proximo ao respawn dos Pokémon venenosos",
+                "objective": "Derrotar: 30 Ekans",
+                "reward": "5.062,5 EXP"
+            },
+            {
+                "npc": "Scott",
+                "location": "Nas escadas da Torre dos Lutadores",
+                "objective": "Entregar: 5 Spin Machine, 5 Kick Machine e 5 Punch Machine",
+                "reward": "$6.075"
+            },
+            {
+                "npc": "Tucker",
+                "location": "No meio do Safari",
+                "objective": "Derrotar: 60 Pinsir",
+                "reward": "74.250 EXP"
+            }
+        ]
+    },
+    "islands_around_kanto": {
+        "lances_island": [
+            {
+                "npc": "Hawk",
+                "location": "Em Lance's Island, ao sul do Charicific Valley",
+                "objective": "Derrotar: 60 Dragonite e 60 Tyranitar",
+                "reward": "360.000 EXP"
+            }
+        ],
+        "charicific_valley": [
+            {
+                "npc": "Prince Adam",
+                "location": "Canto esquerdo inferior, ao sul do respawn de Charizard",
+                "objective": "Entregar: 12 Dragon Tail",
+                "reward": "$16.200"
+            }
+        ],
+        "seafoam_island": [
+            {
+                "npc": "Rhys",
+                "location": "Camping Site, ao sul da maior ilha de Seafoam Island",
+                "objective": "Entregar: 40 Pot Of Lava",
+                "reward": "$2.160"
+            },
+            {
+                "npc": "Tweety Pie",
+                "location": "Camping Site, ao sul da maior ilha de Seafoam Island",
+                "objective": "Entregar: 10 Giant Fins",
+                "reward": "$5.400"
+            },
+            {
+                "npc": "Bart",
+                "location": "Camping Site, ao sul da maior ilha de Seafoam Island",
+                "objective": "Derrotar: 60 Piloswine e 60 Swinub",
+                "reward": "84.375 EXP"
+            },
+            {
+                "npc": "Kathrin",
+                "location": "Camping Site, ao sul da maior ilha de Seafoam Island",
+                "objective": "Entregar: 10 Strange Spike, 10 Ice Bra e 10 Seal Tail",
+                "reward": "$38.460"
+            },
+            {
+                "npc": "Shaun",
+                "location": "Respawn de Lapras",
+                "objective": "Derrotar: 60 Jynx e 60 Smoochum",
+                "reward": "101.250 EXP"
+            },
+            {
+                "npc": "Rudolph",
+                "location": "Leste da maior ilha de Seafoam Island, próximo ao respawn de Piloswine",
+                "objective": "Entregar: 15 Tusk, 15 Gift Bag e 15 Cat Ear",
+                "reward": "$17.685"
+            }
+        ],
+        "butterfree_island": [
+            {
+                "npc": "Zulu",
+                "location": "Pequena ilha localizada entre Cinnabar e Fuchsia",
+                "objective": "Derrotar: 300 Venusaur e 300 Meganium",
+                "reward": "810.000 EXP"
+            },
+            {
+                "npc": "Caesar",
+                "location": "Pequena ilha localizada entre Cinnabar e Fuchsia",
+                "objective": "Derrotar: 300 Charizard e 300 Typhlosion",
+                "reward": "810.000 EXP"
+            },
+            {
+                "npc": "Li Mu Bai",
+                "location": "Pequena ilha localizada entre Cinnabar e Fuchsia",
+                "objective": "Derrotar: 300 Blastoise e 300 Feraligatr",
+                "reward": "810.000 EXP"
+            }
+        ],
+        "desert_island": [
+            {
+                "npc": "Ary The Great",
+                "location": "Centro das 3 pirâmides principais",
+                "objective": "Entregar: 20 Strange Tail",
+                "reward": "$10.800"
+            },
+            {
+                "npc": "Mohamed",
+                "location": "Sul de Desert Island",
+                "objective": "Entregar: 1 Orange Juice",
+                "reward": "$300"
+            }
+        ],
+        "power_plant": [
+            {
+                "npc": "Jake Sully",
+                "location": "Atrás da Power Plant em Lavender",
+                "objective": "Derrotar: 90 Blastoise, 60 Wartortle e 60 Squirtle",
+                "reward": "162.000 EXP"
+            },
+            {
+                "npc": "Emmett",
+                "location": "Atrás da Power Plant em Lavender",
+                "objective": "Entregar: 15 Electric Rat Tail e 15 Sheep Wool",
+                "reward": "$11.800"
+            },
+            {
+                "npc": "Elektra",
+                "location": "Atrás da Power Plant em Lavender",
+                "objective": "Derrotar: 90 Electabuzz e 90 Elekid",
+                "reward": "151.875 EXP"
+            }
+        ],
+        "hurricane_island": [
+            {
+                "npc": "Mork",
+                "location": "No sul da Hurricane Island",
+                "objective": [
+                    "Entregar: 1 Max Revive",
+                    "Derrotar: 100 Pidgeot e 1 Shiny Pidgeot"
+                ],
+                "reward": [
+                    "Após derrotar os Pidgeot: 100.000 EXP",
+                    "Após derrotar o Shiny Pidgeot: 150.000 EXP"
+                ]
+            }
+        ],
+        "jungle_island": [
+            {
+                "npc": "Gina",
+                "location": "Em uma casa ao leste da Jungle Island",
+                "objective": "Encontrar: Procurar pela ilha 5 Natural Herbs, coordenadas: 3920, 3746, 7; 3872, 3797, 7; 3818, 3777, 6; 3905, 3772, 6; 3899, 3843, 6 (Necessário level 30)",
+                "reward": "100.000 EXP"
+            },
+            {
+                "npc": "Hiker",
+                "location": "Em uma cabana ao nordeste da Jungle Island",
+                "objective": "Duelo: Ele irá usar os seguintes pokémons: Onix, Machamp, Rhydon, Omastar, Golem e Kabutops",
+                "reward": "150.000 EXP"
+            }
+        ],
+        "leaf_island": [
+            {
+                "npc": "Melvin",
+                "location": "No centro de Leaf Island",
+                "objective": "Encontrar: Procurar sua capa de mágico. Coordenadas: 3695, 4206, 8",
+                "reward": "100.000 EXP"
+            },
+            {
+                "npc": "Margarida",
+                "location": "No centro de Leaf Island",
+                "objective": "Capturar e entregar: Xatu",
+                "reward": "150.000 EXP, 100 Empty Ultra Balls, 1 Enigma Stone"
+            },
+            {
+                "npc": "Natalya",
+                "location": "No centro de Leaf Island",
+                "objective": "Entregar: 10 Linearly Guided Hypnosis, 2 Mimic Clothes e 10 Psychic Spoons",
+                "reward": "100.000 EXP, $20.000"
+            }
+        ]
+    },
+    "orange_archipelago": {
+        "hamlin_island": [
+            {
+                "npc": "Angelina",
+                "location": "Entrada da Abandoned City ao norte da cidade",
+                "objective": "Derrotar: 150 Electrode e 150 Voltorb",
+                "reward": "75.937,5 EXP"
+            },
+            {
+                "npc": "Archer",
+                "location": "Nordeste de Hamlin, após a ponte",
+                "objective": "Derrotar: 30 Hoppip e 15 Sentret",
+                "reward": "3.881,25 EXP"
+            },
+            {
+                "npc": "Elisha",
+                "location": "Dentro do Centro Pokémon",
+                "objective": "Derrotar: 60 Ampharos, 60 Flaaffy e 60 Mareep",
+                "reward": "121.500 EXP"
+            },
+            {
+                "npc": "Stig",
+                "location": "Próximo a Ponte da cidade (Norte do Centro Pokémon)",
+                "objective": "Entregar: 20 Helicopter Leaves",
+                "reward": "$4.140"
+            },
+            {
+                "npc": "Ulisses",
+                "location": "Nordeste de Hamlin, após a ponte",
+                "objective": "Entregar: 30 Sheep Wool",
+                "reward": "$11.880"
+            }
+        ],
+        "shamouti_island": [
+            {
+                "npc": "Ronald",
+                "location": "Saída sul para o respawn dos pokémon lutadores, perto do NPC Garosh dentro de uma casa",
+                "objective": "Entregar: 15 Steel Wing",
+                "reward": "$8.640"
+            },
+            {
+                "npc": "Penny Lane",
+                "location": "Saída da direita da cidade, indo para o respawn de Steelix",
+                "objective": "Derrotar: 30 Snorlax e 30 Ursaring",
+                "reward": "120.000 EXP"
+            },
+            {
+                "npc": "Norman",
+                "location": "Noroeste da cidade, dentro de um templo subindo a escada",
+                "objective": "Derrotar: 90 Kingdra",
+                "reward": "180.000 EXP"
+            },
+            {
+                "npc": "Fuhara",
+                "location": "Lado direito da cidade, no nordeste perto de algumas casas",
+                "objective": "Entregar: 5 Microphone",
+                "reward": "$2.205"
+            },
+            {
+                "npc": "Abubakar",
+                "location": "Noroeste da cidade, próximo ao NPC Norman",
+                "objective": "Entregar: 20 Tentacle e 20 Point Of Light",
+                "reward": "$16.380"
+            },
+            {
+                "npc": "Tyler",
+                "location": "Lado direito da cidade, dentro do templo no centro",
+                "objective": "Derrotar: 150 Hitmonlee, 150 Hitmonchan e 150 Hitmontop",
+                "reward": "354.375 EXP"
+            },
+            {
+                "npc": "Trall",
+                "location": "Lado direito da cidade, perto do templo onde está o NPC Tyler",
+                "objective": "Entregar: 5 Bear Paw e 20 Reindeer Horn",
+                "reward": "$10.440"
+            },
+            {
+                "npc": "Van Wilder",
+                "location": "No templo central da cidade, na saída do Centro Pokémon",
+                "objective": "Entregar: 10 Slow Tail",
+                "reward": "$6.750"
+            },
+            {
+                "npc": "Wand",
+                "location": "Fight Club",
+                "objective": "Entregar: 300 Spin Machines, 300 Kick Machines, 300 Punch Machines",
+                "reward": "Spinning CD, Kicking CD, Punching CD"
+            }
+        ],
+        "shamouti_library_1st_floor": [
+            {
+                "npc": "Alfred",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 60 Shiny Golem e 60 Shiny Fearow",
+                "reward": "650.000 EXP, 3 Golden Dimensional Key, 6 Silver Dimensional Key e 4 Bronze Dimensional Key"
+            },
+            {
+                "npc": "Baptiste",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 20 Boss Mightyena e 20 Big Onix",
+                "reward": "2 X-Unknown (Tier: 3)"
+            },
+            {
+                "npc": "Agostino",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 100 Shiny Oddish e 100 Roselia",
+                "reward": "500.000 EXP, 2 Golden Dimensional Key e 6 Silver Dimensional Key"
+            },
+            {
+                "npc": "Richers",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 300 Shiny Beedrill e 15 Pachirisu",
+                "reward": "500.000 EXP e 2 Fighter Tokens"
+            },
+            {
+                "npc": "George",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 600 Shiny Rattata e 100 Shiny Raticate",
+                "reward": "2.500.000 EXP, 5 High Tech CHIP e 2 Fighter Tokens"
+            },
+            {
+                "npc": "Sofia",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar NPCs: 2 Seavell King Male, 2 Seavell Queen Female, 4 Ironhard Titan Male, 4 Naturia Keeper Male, 2 Malefic Lorde Male, 2 Malefic Lady Female, 2 Orebound Hero Male, 2 Orebound Hero Female, 4 Volcanic Master Male, 4 Psycraft Medium Male, 4 Wingeon Dragon Male, 4 Gardestrike Champion Male e 4 Raibolt Legend Male",
+                "reward": "2.200.000 EXP, 1 Ancient Stone, 1 Crystal Stone, 1 Metal Stone, 2 Fighter Tokens, 450 Mighty Tokens"
+            },
+            {
+                "npc": "Gerald",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Entregar: $1.000.000",
+                "reward": "2 Fighter Tokens"
+            },
+            {
+                "npc": "Darius",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 300 Scyther, 100 Scizor, 50 Shiny Charizard, 50 Shiny Gengar e 50 Shiny Alakazam",
+                "reward": "2.000.000 EXP e 2 Fighter Tokens"
+            },
+            {
+                "npc": "Raymond",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 15 Empoleon, 15 Torterra e 15 Infernape",
+                "reward": "700.000 EXP e 2 Guardian Tokens"
+            },
+            {
+                "npc": "Rose",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 100 Abomasnow e 350 Froslass",
+                "reward": "1.000.000 EXP e 2 Guardian Tokens"
+            },
+            {
+                "npc": "Martin",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Entregar: 70 Mirror Stone e 30 Topaz",
+                "reward": "10 Heart Stones, 10 Punch Stones, 10 Cocoon Stones, 10 Leaf Stones, 10 Enigma Stones, 10 Darkness Stones, 10 Venom Stones, 10 Earth Stones, 10 Rock Stones, 10 Feather Stones, 10 Thunder Stones, 10 Ice Stones, 10 Water Stones e 10 Fire Stones"
+            },
+            {
+                "npc": "Claudia",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 1000 Rotom",
+                "reward": "2.000.000 EXP e 2 Guardian Tokens"
+            },
+            {
+                "npc": "Cristina",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 100 Bronzong e 50 Bronzor",
+                "reward": "375.000 EXP"
+            },
+            {
+                "npc": "Eugene",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 160 Raichu, 100 Pikachu e 50 Pichu",
+                "reward": "312.000 EXP"
+            },
+            {
+                "npc": "Alma",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Entregar: 160 Topaz",
+                "reward": "2 Guardian Tokens"
+            },
+            {
+                "npc": "Matt",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Capturar: Sylveon, Leafeon e Glaceon",
+                "reward": "20 Golden Dimensional Key e 30 Premier Balls"
+            },
+            {
+                "npc": "Minerva",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 30 Dragonite e 350 Alakazam",
+                "reward": "850.000 EXP"
+            },
+            {
+                "npc": "Sarah",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Entregar: 750 Might Tokens",
+                "reward": "2 Guardian Tokens"
+            }
+        ],
+        "shamouti_library_2nd_floor": [
+            {
+                "npc": "Jericho",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 100 Murkrow, 50 Golbat e 5 Crobat",
+                "reward": "120.000 EXP"
+            },
+            {
+                "npc": "Dragos",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 75 Scyther, 30 Scizor",
+                "reward": "180.000 EXP e 5 Scizor Claws"
+            },
+            {
+                "npc": "Ruby",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 1000 Shuckle",
+                "reward": "Shiny Shuckle"
+            },
+            {
+                "npc": "Desmond",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 90 Pidgeot, 60 Pidgeotto e 60 Pidgey",
+                "reward": "162.000 EXP"
+            },
+            {
+                "npc": "Lestat",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Derrotar: 1000 Crobat e 100 Shiny Crobat",
+                "reward": "1.000.000 EXP e 1 Vampire Lestat Doll"
+            },
+            {
+                "npc": "Leonard",
+                "location": "Biblioteca de Shamouti",
+                "objective": "Entregar: 70 Dimensional Stone e 30 Topaz",
+                "reward": "10 Heart Stones, 10 Punch Stones, 10 Cocoon Stones, 10 Leaf Stones, 10 Enigma Stones, 10 Darkness Stones, 10 Venom Stones, 10 Earth Stones, 10 Rock Stones, 10 Feather Stones, 10 Thunder Stones, 10 Ice Stones, 10 Water Stones e 10 Fire Stones"
+            }
+        ],
+        "butwal_island": [
+            {
+                "npc": "Urijah",
+                "location": "Primeiro andar de uma cabana ao sul da ilha",
+                "objective": "Entregar: 15 Piece Of Coral e 15 Small Tail",
+                "reward": "$10.665"
+            },
+            {
+                "npc": "Yuri",
+                "location": "Próximo ao respawn de Meganium",
+                "objective": "Derrotar: 90 Meganium, 60 Bayleef e 60 Chikorita",
+                "reward": "162.000 EXP"
+            },
+            {
+                "npc": "Centurion",
+                "location": "Dentro do Centro Pokémon",
+                "objective": "Derrotar: 60 Lanturn e 30 Octillery",
+                "reward": "91.125 EXP"
+            }
+        ],
+        "ascorbia_island": [
+            {
+                "npc": "Juan",
+                "location": "Centro da Cidade",
+                "objective": "Derrotar: 30 Houndoom e 30 Houndour",
+                "reward": "43.875 EXP"
+            },
+            {
+                "npc": "Linda",
+                "location": "Centro da Cidade",
+                "objective": "Entregar: 25 Strange Flower",
+                "reward": "$8.550"
+            },
+            {
+                "npc": "Magnum",
+                "location": "Sul do Centro Pokémon",
+                "objective": "Entregar: 15 Yellow Flower",
+                "reward": "$5.130"
+            },
+            {
+                "npc": "Nancy",
+                "location": "Direita do Centro da Cidade",
+                "objective": "Derrotar: 30 Geodude e 30 Skiploom",
+                "reward": "13.500 EXP"
+            },
+            {
+                "npc": "Otto",
+                "location": "Próximo ao market de Ascorbia",
+                "objective": "Derrotar: 15 Hoppip, 15 Pidgey e 5 Caterpie",
+                "reward": "1.475 EXP"
+            },
+            {
+                "npc": "Ashanti",
+                "location": "Norte do Centro Pokémon",
+                "objective": "Entregar: 15 Strange Bone",
+                "reward": "$8.100"
+            }
+        ],
+        "moro_island": [
+            {
+                "npc": "Haruo",
+                "location": "Sudoeste do Museu, dentro de uma casa",
+                "objective": "Entregar: 30 Piece Of Shell e 30 Small Shell",
+                "reward": "$19.440"
+            },
+            {
+                "npc": "Dr. Raymond Stantz",
+                "location": "Sudoeste do Museu, dentro de uma casa",
+                "objective": "Derrotar: 60 Haunter e 60 Gastly",
+                "reward": "43.875 EXP"
+            },
+            {
+                "npc": "Face",
+                "location": "Sudoeste do Museu, dentro de uma casa",
+                "objective": "Derrotar: 60 Murkrow",
+                "reward": "40.500 EXP"
+            },
+            {
+                "npc": "Stewie",
+                "location": "Sul do Museu, dentro de uma casa",
+                "objective": "Entregar: 15 Dark Beak",
+                "reward": "$5.535"
+            },
+            {
+                "npc": "Dwayne",
+                "location": "Sudeste do Museu, em uma ponte",
+                "objective": "Entregar: 200 Water Pendant e 10 Strange Thing",
+                "reward": "$10.410"
+            }
+        ],
+        "magma_island": [
+            {
+                "npc": "Antoni",
+                "location": "Norte/Esquerda do Centro Pokémon Policial",
+                "objective": "Derrotar: 150 Donphan",
+                "reward": "202.625 EXP"
+            },
+            {
+                "npc": "Jacqueline",
+                "location": "Entrada da Magma Island Quest",
+                "objective": "Derrotar: 60 Magmar e 60 Magby",
+                "reward": "101.250 EXP"
+            },
+            {
+                "npc": "Miyagi",
+                "location": "Sul do Centro Pokémon Policial",
+                "objective": "Derrotar: 150 Magcargo e 100 Slugma",
+                "reward": "185.625 EXP"
+            },
+            {
+                "npc": "Sameer",
+                "location": "Dentro do Centro Pokémon Policial",
+                "objective": "Entregar: 15 Elephant Foot e 15 Lizard Tail",
+                "reward": "$28.350"
+            },
+            {
+                "npc": "Taj Mahal Badalandabad",
+                "location": "Entrada da Magma Island Quest",
+                "objective": "Entregar: 5 Magma Foot e 20 Fire Ear",
+                "reward": "$23.100"
+            }
+        ],
+        "mandarin_island": [
+            {
+                "npc": "Roxanne",
+                "location": "Centro Pokémon",
+                "objective": "Derrotar: 90 Girafarig, 90 Xatu e 60 Natu",
+                "reward": "229.500 EXP"
+            },
+            {
+                "npc": "Guere",
+                "location": "No lago ao sul do Centro Pokémon",
+                "objective": "Entregar: 10 Squirrel Tail, 10 Owl Feather e 10 Small Wing",
+                "reward": "$8.820"
+            },
+            {
+                "npc": "Vicent Vega",
+                "location": "Nas casas à direita do Centro Pokémon, subindo a primeira escada",
+                "objective": "Entregar: 10 Strange Wing e 10 Psychic Spoon",
+                "reward": "$10.440"
+            },
+            {
+                "npc": "Oprah",
+                "location": "Nordeste do Centro Pokémon",
+                "objective": "Entregar: 15 Rat Tail e 15 Red Wing",
+                "reward": "$7.560"
+            },
+            {
+                "npc": "Peggy",
+                "location": "À direita do Centro Pokémon, dentro de uma casa (subindo uma montanha)",
+                "objective": "Derrotar: 15 Snubbull, 15 Pidgey e 15 Rattata",
+                "reward": "6.112,5 EXP"
+            },
+            {
+                "npc": "Buffalo Bill",
+                "location": "Na direita do pequeno Shopping da cidade, no segundo andar de uma casa junto ao NPC Ice Cube",
+                "objective": "Entregar: 10 Cow Tail e 20 Dog Ear",
+                "reward": "$14.220"
+            }
+        ],
+        "old_village": [
+            {
+                "npc": "Leon",
+                "location": "Saída do Farol do Pidgeot",
+                "objective": "Entregar: 5 Gligar Claw",
+                "reward": "$1.350"
+            },
+            {
+                "npc": "Bobby Z",
+                "location": "Old Village, após sair do Farol do Pidgeot basta subir reto, está dentro de uma casa",
+                "objective": "Derrotar: 120 Aipom",
+                "reward": "54.000 EXP"
+            },
+            {
+                "npc": "Junior",
+                "location": "Old Village, após sair do Farol do Pidgeot basta subir reto",
+                "objective": "Entregar: 10 Strange Antenna e 15 Plant Foot",
+                "reward": "$10.935"
+            },
+            {
+                "npc": "Dj",
+                "location": "Old Village, após sair do Farol do Pidgeot basta subir reto",
+                "objective": "Entregar: 12 Monkey Paw",
+                "reward": "$3.240"
+            },
+            {
+                "npc": "Ethan",
+                "location": "Old Village, após sair do Farol do Pidgeot basta ir para a direita, ele está dentro da casa",
+                "objective": "Derrotar: 15 Venusaur, 15 Blastoise, 15 Charizard, 15 Gengar, 15 Alakazam, 15 Meganium, 15 Feraligatr e 15 Typhlosion",
+                "reward": "158.625 EXP"
+            },
+            {
+                "npc": "The Hermit",
+                "location": "Old Village, após sair do Farol do Pidgeot basta subir reto, está dentro de uma casa",
+                "objective": "Derrotar: 20 King Raticate, 20 Giant Sunflora e 20 Giant Tentacruel",
+                "reward": "10kk EXP"
+            },
+            {
+                "npc": "Joel",
+                "location": "Old Village, após sair do Farol do Pidgeot basta subir reto, está dentro de uma casa",
+                "objective": "Derrotar: 100 Machoke e 200 Machamp",
+                "reward": "350k EXP"
+            }
+        ],
+        "murcott_island": [
+            {
+                "npc": "Bauer",
+                "location": "Centro da cidade",
+                "objective": "Derrotar: 300 Forretress",
+                "reward": "405.000 EXP"
+            },
+            {
+                "npc": "Keith R",
+                "location": "Casa ao Sul da Cidade",
+                "objective": "Derrotar: 150 Ariados e 100 Spinarak",
+                "reward": "70.312,5 EXP"
+            },
+            {
+                "npc": "Nadia",
+                "location": "Casa a direita do Centro Pokémon",
+                "objective": "Derrotar: 150 Pinsir e 150 Heracross",
+                "reward": "405.000 EXP"
+            },
+            {
+                "npc": "Officer T. J. Hooker",
+                "location": "Casa ao norte da cidade",
+                "objective": "Entregar: 10 Spider Legs, 10 Insect Tail e 10 Ladybug Wing",
+                "reward": "$8.100"
+            },
+            {
+                "npc": "Yvone",
+                "location": "Dentro do Centro Pokémon",
+                "objective": "Entregar: 10 Scizor Claw e 20 Scythe",
+                "reward": "$120.000"
+            },
+            {
+                "npc": "Philip",
+                "location": "Nordeste da ilha, na entrada do respawn de Kricketune",
+                "objective": "Derrotar: 500 Kricketune e 2 Shiny Kricketune",
+                "reward": "775.000 EXP"
+            }
+        ],
+        "golden_island": [
+            {
+                "npc": "Curtis Jackson II",
+                "location": "Proximo a Estátua do Meowth",
+                "objective": "Entregar: 15 Giant Bat Wing",
+                "reward": "$8.100"
+            },
+            {
+                "npc": "Franz",
+                "location": "Proximo a Estátua do Meowth",
+                "objective": "Derrotar: 120 Houndoom e 120 Houndour",
+                "reward": "175.500 EXP"
+            },
+            {
+                "npc": "Michelle",
+                "location": "Proximo a Estátua do Meowth",
+                "objective": "Entregar: 10 Luck Medallion",
+                "reward": "$30.000"
+            }
+        ],
+        "tangelo_island": [
+            {
+                "npc": "Boyega",
+                "location": "Ao sul do centro Pokémon",
+                "objective": "Derrotar: 300 Golem",
+                "reward": "405.000 EXP"
+            },
+            {
+                "npc": "Cocao",
+                "location": "A leste do market, subindo as escadas",
+                "objective": [
+                    "Parte 1: Derrotar 50 Exeggcute",
+                    "Parte 2: Derrotar 300 Exeggutor"
+                ],
+                "reward": [
+                    "Parte 1: 5625 EXP",
+                    "Parte 2: 405.000 EXP"
+                ]
+            },
+            {
+                "npc": "Bene",
+                "location": "Próximo ao respawn de Primeape",
+                "objective": [
+                    "Parte 1: Derrotar 100 Mankey",
+                    "Parte 2: Derrotar 150 Primeape",
+                    "Parte 3: Encontrar a Mochila de Bene (possível drop do Bully Primeape)"
+                ],
+                "reward": [
+                    "Parte 1: 16875 EXP",
+                    "Parte 2: 84375 EXP",
+                    "Parte 3: 200.000 EXP"
+                ]
+            },
+            {
+                "npc": "Ethan",
+                "location": "A leste do pier, próximo a entrada da caverna",
+                "objective": [
+                    "Parte 1: Derrotar 15 Slowpoke, 15 Psyduck e 15 Krabby",
+                    "Parte 2: Derrotar 50 Golduck e 35 Psyduck",
+                    "Parte 3: Derrotar 300 Golduck"
+                ],
+                "reward": [
+                    "Parte 1: 11542.5 EXP",
+                    "Parte 2: 80370 EXP",
+                    "Parte 3: 410400 EXP"
+                ]
+            },
+            {
+                "npc": "Wallace",
+                "location": "No pier da direita",
+                "objective": [
+                    "Parte 1: Derrotar 25 Krabby e 25 Slowpoke",
+                    "Parte 2: Entregar 5 Crab Claw e 5 Slow Tail",
+                    "Parte 3: Derrotar 15 Slowpoke, 100 Slowbro, 15 Krabby e 100 Kingler",
+                    "Parte 4: Entregar 15 Slow Tail e 15 Crab Claw"
+                ],
+                "reward": [
+                    "Parte 1: 7031.25 EXP",
+                    "Parte 2: $3.150",
+                    "Parte 3: 99843.75 EXP",
+                    "Parte 4: $9.450"
+                ]
+            },
+            {
+                "npc": "Lena",
+                "location": "No pier da ilha de Tangelo",
+                "objective": [
+                    "Parte 1: Ter a Pokédex de todos 'Pikaclones' (Pichu, Pikachu, Minun, Plusle, Pachirisu, Emolga, Togedemaru, Dedenne)",
+                    "Parte 2: Duelo contra Lena, que usará 6 Pokémon: Emolga, Pichu, Togedemaru, Minun and Plusle, Dedenne e Pachisiru"
+                ],
+                "reward": [
+                    "Parte 1: 50000 EXP",
+                    "Parte 2: 300000 EXP"
+                ]
+            }
+        ]
+    },
+    "islands_around_archipelago": {
+        "kinnow_island": [
+            {
+                "npc": "Gustavo Borges",
+                "location": "Nordeste da maior ilha de Kinnow Island, na praia",
+                "objective": "Entregar: 10 Blue Ball e 20 Wooper Horn",
+                "reward": "$13.230"
+            },
+            {
+                "npc": "Jason",
+                "location": "Na entrada de uma casa ao nordeste, na maior ilha de Kinnow Island",
+                "objective": "Entregar: 10 Insect Claw",
+                "reward": "$5.400"
+            },
+            {
+                "npc": "Agent K",
+                "location": "Dentro de uma casa ao nordeste, na maior ilha de Kinnow Island",
+                "objective": "Entregar: 10 Streak Tail e 10 Red Scale",
+                "reward": "$9.360"
+            },
+            {
+                "npc": "Micaela",
+                "location": "Dentro de uma casa ao nordeste, na maior ilha de Kinnow Island",
+                "objective": "Entregar: 15 Hot Fur",
+                "reward": "$5.940"
+            }
+        ],
+        "kabuto_fossil_island": [
+            {
+                "npc": "Timothy",
+                "location": "Em uma montanha acima do respawn de Skarmory",
+                "objective": "Derrotar: 120 Skarmory e 120 Fearow",
+                "reward": "229.500 EXP"
+            },
+            {
+                "npc": "Beatrice",
+                "location": "Sul de Kabuto Fossil Island, na entrada da caverna",
+                "objective": "Entregar: 15 Dome Fossil",
+                "reward": "$180.000"
+            },
+            {
+                "npc": "Noah",
+                "location": "Sul de Kabuto Fossil Island, na entrada da caverna",
+                "objective": "Derrotar: 150 Kabuto",
+                "reward": "33.750 EXP"
+            },
+            {
+                "npc": "Norah",
+                "location": "Sul de Kabuto Fossil Island, na entrada da caverna",
+                "objective": "Entregar: 20 Branch Of Stone",
+                "reward": "$10.800"
+            }
+        ],
+        "leek_island": [
+            {
+                "npc": "Giulia",
+                "location": "Sudoeste da ilha, no acampamento à direita do respawn de Farfetch'd",
+                "objective": "Derrotar: 300 Dodrio",
+                "reward": "150.000 EXP"
+            },
+            {
+                "npc": "Diego",
+                "location": "Na ponte entre o respawn de Dodrio e Farfetch'd",
+                "objective": [
+                    "Parte 1: Derrotar 250 Farfetch'd",
+                    "Parte 2: Derrotar 5 Elite Farfetch'd"
+                ],
+                "reward": [
+                    "Parte 1: 150.000 EXP",
+                    "Parte 2: 250.000 EXP"
+                ]
+            }
+        ],
+        "fairchild_island": [
+            {
+                "npc": "Tony",
+                "location": "Dentro da caverna, no respawn de Onix e Steelix",
+                "objective": [
+                    "Derrotar: 150 Onix e 250 Steelix",
+                    "Entregar: 3 Steelix Tail"
+                ],
+                "reward": [
+                    "Após derrotar os pokémon: 700.000 EXP",
+                    "Após entregar os Steelix Tail: 200.000 EXP"
+                ]
+            }
+        ],
+        "petalgroove_island": [
+            {
+                "npc": "Florence",
+                "location": "Norte da ilha, subindo as escadas na praia",
+                "objective": "Derrotar: 60 Flabébé, 120 Floette e 180 Florges",
+                "reward": "373.500 EXP"
+            },
+            {
+                "npc": "Robb",
+                "location": "Norte da ilha, no respawn de Clefairy",
+                "objective": "Derrotar: 250 Clefable e 250 Granbull",
+                "reward": "675.000 EXP"
+            }
+        ],
+        "valencia_island": [
+            {
+                "npc": "Lara",
+                "location": "No respawn de Vileplume e Bellossom",
+                "objective": "Derrotar: 100 Vileplume e 100 Bellossom",
+                "reward": "112.400 EXP"
+            }
+        ],
+        "easter_island": [
+            {
+                "npc": "Hector",
+                "location": "Noroeste da Easter Island",
+                "objective": [
+                    "1ª Parte: Derrotar 100 Diggersby e 100 Lopunny",
+                    "2ª Parte: Capturar Diggersby e Lopunny"
+                ],
+                "reward": [
+                    "1ª Parte: 260.000 EXP",
+                    "2ª Parte: 2 Golden Dimensional Key, 40 Yume Ball e 1 Unpacked Toy"
+                ]
+            }
+        ]
+    },
+    "outland": {
+        "outland_north": [
+            {
+                "npc": "Chow",
+                "location": "Descendo as escadas, no andar embaixo do Centro Pokémon",
+                "objective": "Derrotar: 250 Elder Pokémon da Outland North",
+                "reward": "4.000.000 EXP, Libera o acesso ao santuário do Suicune"
+            },
+            {
+                "npc": "Jamie",
+                "location": "Outland North, próximo ao Suicune",
+                "objective": "Entregar: 75 Red Scale, 75 Squirtle Hull, 25 Gyarados Tail, 10 Water Stone e 5000 Water Gem",
+                "reward": "2 Salac Berries (Unique)"
+            },
+            {
+                "npc": "Merliah",
+                "location": "Outland North, próximo ao Suicune",
+                "objective": "Derrotar: Suicune pelo menos uma vez",
+                "reward": "Acesso à tribo do Suicune"
+            },
+            {
+                "npc": "Carrie",
+                "location": "Outland North, dentro da tribo do Suicune",
+                "objective": [
+                    "1ª Parte: Derrotar 10.000 Pokémon de água",
+                    "2ª Parte: Entregar 540 Water Stone e 10 Suicune's Legendary Tail"
+                ],
+                "reward": [
+                    "1ª Parte: 15.000.000 de experiência",
+                    "2ª Parte: Upgrade Tier 6, Book: Suicune Tribe e acesso a Tailoring Machine do Suicune"
+                ]
+            },
+            {
+                "npc": "Nereu",
+                "location": "Outland North, dentro da tribo do Suicune",
+                "objective": "Assistir: Cinemática sobre a história da Outland",
+                "reward": "5.000.000 de experiência"
+            }
+        ],
+        "outland_south": [
+            {
+                "npc": "Alfie",
+                "location": "Descendo as escadas, no andar embaixo do Centro Pokémon",
+                "objective": "Derrotar: 250 Elder Pokémon da Outland South",
+                "reward": "4.000.000 EXP, Libera o acesso ao santuário do Raikou"
+            },
+            {
+                "npc": "JB Defalt",
+                "location": "Outland South, próximo ao Raikou",
+                "objective": "Entregar: 75 Electric Rat Tail, 25 Electric Tail, 75 Sheep Wool, 10 Thunder Stone e 5000 Screw",
+                "reward": "2 Salac Berries (Unique)"
+            },
+            {
+                "npc": "Lumina",
+                "location": "Outland South, próximo ao Raikou",
+                "objective": "Derrotar: Raikou pelo menos uma vez",
+                "reward": "Acesso à tribo do Raikou"
+            },
+            {
+                "npc": "Reyna",
+                "location": "Outland South, dentro da tribo do Raikou",
+                "objective": [
+                    "1ª Parte: Derrotar 10.000 Pokémon de raio",
+                    "2ª Parte: Entregar 540 Thunder Stone e 10 Raikou's Legendary Tail"
+                ],
+                "reward": [
+                    "1ª Parte: 15.000.000 de experiência",
+                    "2ª Parte: Upgrade Tier 6, Book: Raikou Tribe e acesso a Tailoring Machine do Raikou"
+                ]
+            },
+            {
+                "npc": "Rohan",
+                "location": "Outland South, dentro da tribo do Raikou",
+                "objective": "Assistir: Cinemática sobre a história da Outland",
+                "reward": "5.000.000 de experiência"
+            }
+        ],
+        "outland_east": [
+            {
+                "npc": "Rana",
+                "location": "Descendo as escadas, no andar embaixo do Centro Pokémon",
+                "objective": "Derrotar: 250 Elder Pokémon da Outland East",
+                "reward": "4.000.000 EXP, Libera o acesso ao santuário do Entei"
+            },
+            {
+                "npc": "Silva",
+                "location": "Outland East, entrada da Outland de Lutador",
+                "objective": "Derrotar: 500 Pokémon do tipo lutador na Outland (Hitmontop, Hitmonlee e Hitmonchan)",
+                "reward": "1.094.000 de experiência"
+            },
+            {
+                "npc": "Mikey",
+                "location": "Outland East, em frente ao NPC Mark",
+                "objective": [
+                    "1ª Parte: Falar com o NPC Mikey",
+                    "2ª Parte: Falar com o NPC Joey, entrada do respaw de murkrow (2899, 3005, 6)",
+                    "3ª Parte: Coletar Loot do Pirate Murkrow para obter um Gold Pendant",
+                    "4ª Parte: Falar novamente com o NPC Joey",
+                    "5ª Parte: Falar com o NPC Mikey"
+                ],
+                "reward": "300k EXP e Pokémon Tales Vol. 2: Before The Murkrow Fly"
+            },
+            {
+                "npc": "Phoenix",
+                "location": "Outland East, próximo ao Entei",
+                "objective": "Entregar: 75 Hot Fur, 75 Fire Tail, 25 Magma Foot, 10 Fire Stone e 5000 Essence of Fire",
+                "reward": "2 Salac Berries (Unique)"
+            },
+            {
+                "npc": "Eris",
+                "location": "Outland East, próximo ao Entei",
+                "objective": "Derrotar: Entei pelo menos uma vez",
+                "reward": "Acesso à tribo do Entei"
+            },
+            {
+                "npc": "Corey",
+                "location": "Outland East, dentro da tribo do Entei",
+                "objective": [
+                    "1ª Parte: Derrotar 10.000 Pokémon de fogo",
+                    "2ª Parte: Entregar 540 Fire Stone e 10 Entei's Legendary Fur"
+                ],
+                "reward": [
+                    "1ª Parte: 15.000.000 de experiência",
+                    "2ª Parte: Upgrade Tier 6, Book: Entei Tribe e acesso a Tailoring Machine do Entei"
+                ]
+            },
+            {
+                "npc": "Zion",
+                "location": "Outland East, dentro da tribo do Entei",
+                "objective": "Assistir: Cinemática sobre a história da Outland",
+                "reward": "5.000.000 de experiência"
+            }
+        ]
+    },
+    "orre": {
+        "phenac": [
+            {
+                "npc": "Adoriabelle",
+                "location": "Entrada do metrô",
+                "objective": "Entregar: 35 Greens, 35 Fire Feather e 35 Black Fins",
+                "reward": "$41.580"
+            },
+            {
+                "npc": "Dardeno",
+                "location": "Entrada do metrô",
+                "objective": "Entregar: 200 Pawn",
+                "reward": "$60.000"
+            },
+            {
+                "npc": "Alessa",
+                "location": "Entrada do metrô",
+                "objective": "Derrotar: 300 Sceptile, 300 Blaziken e 300 Swampert",
+                "reward": "1.969.200 EXP"
+            },
+            {
+                "npc": "Salvatore",
+                "location": "Na entrada do metrô, próximo às TV's",
+                "objective": "Derrotar: 150 Dusclops, 150 Sableye e 200 Banette",
+                "reward": "981.800 EXP"
+            },
+            {
+                "npc": "Antonella",
+                "location": "Saída nordeste da cidade",
+                "objective": "Derrotar: 200 Claydol e 200 Grumpig",
+                "reward": "875.200 EXP"
+            },
+            {
+                "npc": "Ramon",
+                "location": "À esquerda do market, subindo as escadas",
+                "objective": "Entregar: 40 Strange Ball e 300 Sand Tail",
+                "reward": "$125.040"
+            },
+            {
+                "npc": "Noa",
+                "location": "À esquerda do Market",
+                "objective": "Entregar: 200 Cure Flower",
+                "reward": "$90.000"
+            },
+            {
+                "npc": "Tissot",
+                "location": "Saída noroeste da cidade",
+                "objective": "Entregar: 120 Cute Ball e 60 Eruption Ears",
+                "reward": "$36.000"
+            },
+            {
+                "npc": "Rener",
+                "location": "No deserto ao Sudeste do Centro Pokémon",
+                "objective": "Entregar: 20 Metal Hull e 10 Metal Jaw",
+                "reward": "$20.880"
+            },
+            {
+                "npc": "Saymon",
+                "location": "No deserto a sudeste do Centro Pokémon, próximo aos Trapinch",
+                "objective": "Entregar: 15 Palm Leaves",
+                "reward": "$36.090"
+            },
+            {
+                "npc": "Greggy",
+                "location": "Respawn de Medicham",
+                "objective": "Derrotar: 300 Medicham e 100 Meditite",
+                "reward": "649.800 EXP"
+            },
+            {
+                "npc": "Yggrith",
+                "location": "Respawn de Cacturne, próximo ao lago que fica perto de Artificial Island",
+                "objective": "Derrotar: 450 Cacturne, 100 Cacnea",
+                "reward": "966.150 EXP"
+            },
+            {
+                "npc": "Laguna",
+                "location": "No respawn de Banette",
+                "objective": "Entregar: 200 Doll Star e 200 Ghost Skull",
+                "reward": "$120.000"
+            },
+            {
+                "npc": "Roger",
+                "location": "Entrada do respawn de Whismur",
+                "objective": "Derrotar: 350 Exploud, 250 Loudred, 100 Whismur",
+                "reward": "966.150 EXP"
+            },
+            {
+                "npc": "Anice",
+                "location": "Ao noroeste da cidade há uma escada para o respawn de Swellow, ela fica ao norte da entrada",
+                "objective": "Derrotar: 200 Swellow e 200 Altaria",
+                "reward": "875.200 EXP"
+            },
+            {
+                "npc": "Kazumi",
+                "location": "No respawn de Swellow, ao norte",
+                "objective": "Entregar: 75 Crimson Feather",
+                "reward": "$27.000"
+            },
+            {
+                "npc": "Borsalino",
+                "location": "No acampamento próximo ao respawn de Makuhita",
+                "objective": "Entregar: 80 Samurai Hair e 40 Big Hands",
+                "reward": "$48.000"
+            },
+            {
+                "npc": "Daphne",
+                "location": "Entrada do respawn de Seviper",
+                "objective": "Entregar: 150 Tribe Mark e 150 Poisonous Tail",
+                "reward": "$109.800"
+            },
+            {
+                "npc": "Vanny",
+                "location": "Dentro do respawn de Lucario, ao sul",
+                "objective": "Derrotar: 250 Lucario e 100 Riolu",
+                "reward": "598.500 EXP"
+            },
+            {
+                "npc": "Tinnie",
+                "location": "Entrada para o respawn de Croagunk e Toxicroak",
+                "objective": "Derrotar: 50 Toxicroak, 25 Croagunk",
+                "reward": "348.300 EXP"
+            },
+            {
+                "npc": "Kammie",
+                "location": "No respawn de Sceptile, próximo ao rio ao lado do respawn de Ludicolo",
+                "objective": "Derrotar: 50 Kecleon",
+                "reward": "4.104.000 EXP"
+            },
+            {
+                "npc": "Austin",
+                "location": "Saída sul da cidade, próximo ao respawn de Zangoose",
+                "objective": "Derrotar: 150 Seviper e 150 Zangoose",
+                "reward": "656.400 EXP"
+            },
+            {
+                "npc": "Khyara",
+                "location": "Saída sul da cidade, no respawn de Lotad",
+                "objective": "Derrotar: 400 Ludicolo e 200 Lombre",
+                "reward": "1.076.800 EXP"
+            },
+            {
+                "npc": "Natalie",
+                "location": "Saída à sudeste, subindo a primeira rampa que dá acesso ao respawn de Claydol",
+                "objective": "Entregar: 160 Mediling",
+                "reward": "$53.760"
+            },
+            {
+                "npc": "Kuro",
+                "location": "Dentro da baleia no respawn de Swampert",
+                "objective": "Entregar: 50 Zap",
+                "reward": "$150.000"
+            },
+            {
+                "npc": "Edmond",
+                "location": "À direita de Phenac, na entrada de uma ilha de gelo",
+                "objective": "Entregar: 50 Ice Block",
+                "reward": "$15.000"
+            },
+            {
+                "npc": "Galvao",
+                "location": "À direita de Phenac, na entrada de uma ilha de gelo",
+                "objective": "Derrotar: 500 Glalie",
+                "reward": "1.094.000 EXP"
+            },
+            {
+                "npc": "Lizzie",
+                "location": "À direita de Phenac, na entrada de uma ilha de gelo",
+                "objective": "Derrotar: 150 Sealeo, 75 Spheal",
+                "reward": "237.975 EXP"
+            },
+            {
+                "npc": "Spencer",
+                "location": "Nordeste do Centro Pokémon",
+                "objective": "Entregar: 12 Mini Wing e 8 Tech Ball",
+                "reward": "$235.680"
+            },
+            {
+                "npc": "Bilbo",
+                "location": "Dentro do respawn de Grumpig, à direita",
+                "objective": "Derrotar: Derrotar 16 Grumpig na dungeon que o NPC concede acesso",
+                "reward": "180.000 EXP"
+            },
+            {
+                "npc": "Angelinna",
+                "location": "Entrada do respawn de Sableye",
+                "objective": "Derrotar: Derrotar 54 Sableye na dungeon que o NPC concede acesso",
+                "reward": "260.000 EXP"
+            },
+            {
+                "npc": "Big House",
+                "location": "Entrada do respawn de Snorunt",
+                "objective": "Derrotar: Derrotar 39 Froslass na dungeon que o NPC concede acesso",
+                "reward": "260.000 EXP"
+            },
+            {
+                "npc": "Tuck",
+                "location": "Entrada do respawn de Lucario",
+                "objective": [
+                    "Parte 1: Derrotar 14 Makuhita ou Hariyama na dungeon que o NPC concede acesso",
+                    "Parte 2: Falar com Luck (5424, 5643, 6 - Respawn de Metang) e derrotar 15 Metang",
+                    "Parte 3: Retornar ao Tuck e derrotar 13 Lucario"
+                ],
+                "reward": "700.000 EXP"
+            },
+            {
+                "npc": "Pyke",
+                "location": "Dentro de um dos esconderijos dos Bikers em Phenac. Obs: Necessário ter acesso ao local pela Hard Situation - Bikers Quest",
+                "objective": [
+                    "Parte 1: Encontrar um ovo de Tropius (5389, 5822, 6)",
+                    "Parte 2: Encontrar outro ovo de Tropius ao sul (5308, 5907, 6). Obs: Ao clicar nesse ovo, será teleportado para uma arena e deverá derrotar um Angry Tropius",
+                    "Parte 3: Entregar o Big Tropius Egg para Pyke para receber a recompensa"
+                ],
+                "reward": "300.000 EXP"
+            }
+        ],
+        "metro_phenac": [
+            {
+                "npc": "Victorine",
+                "location": "Dentro do metrô",
+                "objective": "Derrotar: 200 Shelgon, 200 Metang e 200 Mawile",
+                "reward": "1.312.800 EXP"
+            },
+            {
+                "npc": "Naomi",
+                "location": "Dentro do metrô",
+                "objective": "Entregar: 120 Lobster Claw",
+                "reward": "$54.000"
+            },
+            {
+                "npc": "Lola",
+                "location": "Dentro do metrô",
+                "objective": "Entregar: 150 Spring",
+                "reward": "$45.000"
+            },
+            {
+                "npc": "Calisto",
+                "location": "Dentro do metrô",
+                "objective": "Entregar: 240 Seal Mustache, 240 Cloud e 350 Fur Ball",
+                "reward": "$295.080"
+            }
+        ],
+        "agate": [
+            {
+                "npc": "Enrico",
+                "location": "Em frente ao Centro Pokémon, descendo a escada",
+                "objective": "Derrotar: 300 Shiftry e 150 Nuzleaf",
+                "reward": "732.000 EXP"
+            },
+            {
+                "npc": "Miguel",
+                "location": "Ao sul do Centro Pokémon, próximo ao NPC Enrico",
+                "objective": "Entregar: 50 Water Plant, 50 Sharp Leaves e 30 Big Seed",
+                "reward": "$46.800"
+            },
+            {
+                "npc": "Chloe",
+                "location": "Saída à nordeste da cidade",
+                "objective": "Derrotar: 250 Vigoroth e 100 Slakoth",
+                "reward": "410.400 EXP"
+            },
+            {
+                "npc": "Charlene",
+                "location": "Nordeste do Centro Pokémon, no respawn de Slakoth",
+                "objective": "Derrotar: 300 Flygon e 100 Vibrava",
+                "reward": "757.200 EXP"
+            },
+            {
+                "npc": "Escobar",
+                "location": "A nordeste da vila, na entrada da caverna para o respawn de Torchic",
+                "objective": "Entregar: 120 Nu Ball, 20 Black Hull e 20 Mini Volcano",
+                "reward": "$102.000"
+            },
+            {
+                "npc": "Goulard",
+                "location": "No respawn de Corphish",
+                "objective": "Derrotar: 350 Crawdaunt e 200 Corphish",
+                "reward": "909.800 EXP"
+            },
+            {
+                "npc": "Manuele",
+                "location": "À nordeste do market, ao lado da casa",
+                "objective": "Derrotar: 350 Camerupt e 200 Numel",
+                "reward": "909.800 EXP"
+            },
+            {
+                "npc": "Cindy",
+                "location": "À sudeste do market, próximo ao transporte para Gateon Port",
+                "objective": "Entregar: O livro perdido que está na estação de trem (5611, 5692, 10)",
+                "reward": "$20.000 e 150.000 EXP"
+            },
+            {
+                "npc": "Luck",
+                "location": "Ao sul do centro Pokémon, na entrada para o respawn de Electrike",
+                "objective": "Derrotar: 450 Manectric e 100 Electrike",
+                "reward": "974.700 EXP"
+            },
+            {
+                "npc": "Donizete",
+                "location": "Ao sul da vila, no respawn de Magnezone",
+                "objective": "Entregar: 300 Shock Topknot",
+                "reward": "$118.800"
+            },
+            {
+                "npc": "Esteban",
+                "location": "Entrada do respawn de Poochyena e Mightyena",
+                "objective": "Entregar: 20 Dark Moon",
+                "reward": "$72.000"
+            },
+            {
+                "npc": "Gordon",
+                "location": "Entrada do respawn de Poochyena e Mightyena",
+                "objective": "Derrotar: 425 Mightyena, 100 Poochyena",
+                "reward": "940.500 EXP"
+            },
+            {
+                "npc": "Roque",
+                "location": "À esquerda do Centro Pokémon, na ponte de madeira um andar acima, próximo à estátua de ouro",
+                "objective": "Derrotar: 50 Tropius, 50 Absol, 50 Torkoal, 50 Aggron, 50 Gardevoir, 50 Walrein e 50 Hariyama",
+                "reward": "2.268.000 EXP"
+            },
+            {
+                "npc": "Ymir",
+                "location": "Respawn de Sceptile, próximo à praia",
+                "objective": "Derrotar: 50 Cradily, 25 Lileep",
+                "reward": "305.800 EXP"
+            }
+        ],
+        "gateon_port": [
+            {
+                "npc": "Jane",
+                "location": "Ao lado esquerdo do Krabby Club (Necessário level 150)",
+                "objective": "Coletar: 20 Red Jungle Bells. Todos pela floresta de Orre, coordenadas: 5352, 5949, 7; 5323, 5888, 7; 5367, 5806, 7; 5404, 5783, 6; 5419, 5820, 7",
+                "reward": "Primeira entrega: 500.000 EXP e aguarde 5 minutos para receber um Red Jungle Bell Wine Bottle. Nos demais dias, apenas o Red Jungle Bell Wine Bottle"
+            },
+            {
+                "npc": "Susan",
+                "location": "No segundo andar do Krabby Club (Entrada no lado direito)",
+                "objective": "Derrotar: 350 Mightyena",
+                "reward": "718.200 EXP"
+            },
+            {
+                "npc": "Corey",
+                "location": "Ilha à sudoeste de Gateon Port",
+                "objective": [
+                    "1ª Parte: Falar com Tobey (5656, 6077, 6) e coletar as 100 isca roubadas (loot de Wingull)",
+                    "2ª Parte: Entregar a caixa de isca para o Corey"
+                ],
+                "reward": "500.000 EXP"
+            },
+            {
+                "npc": "Jeremy Gill",
+                "location": "Ponte próximo ao Respawn de Wingull",
+                "objective": [
+                    "Parte 1: Derrotar 20 Pelipper",
+                    "Parte 2: Capturar e entregar um Pelipper"
+                ],
+                "reward": "600k EXP"
+            }
+        ],
+        "ss_libra": [
+            {
+                "npc": "Chef Hugo",
+                "location": "No restaurante do S.S. Libra",
+                "objective": "Coletar: caixa de suprimentos (5700, 5870, 7 - Respawn de Swampert)",
+                "reward": "150.000 EXP"
+            }
+        ]
+    },
+    "trade_center": {
+        "creation_studio": [
+            {
+                "npc": "Good Game Niko",
+                "objective": "Derrotar: 22 Lapras, 30 Electabuzz, 41 Arcanine, 6 Charizard e 8 Gengar",
+                "reward": "200k EXP e Good Game Nicko Backback"
+            },
+            {
+                "npc": "Loxas",
+                "objective": [
+                    "1ª Parte: Pegar Loxas Glasses (Posição: 4029, 3298, 6), Pegar Loxas Suit (Posição: 4033, 3305, 5)",
+                    "2ª Parte: Derrotar 500 Pokémon da Outland",
+                    "3ª Parte: Responder o questionário com a opção: 'se divertir?!'"
+                ],
+                "reward": "525k EXP e Loxas Backpack"
+            },
+            {
+                "npc": "Alemaosao",
+                "objective": [
+                    "1ª Parte: Registrar 148 Pokémon de Kanto na Pokédex",
+                    "2ª Parte: Responder a charada, resposta: dragonite",
+                    "3ª Parte: Pegar Batman Doll (Posição: 30886, 20974, 7), ano de 2032 entrando no Nightmare World parando"
+                ],
+                "reward": "400k EXP e Alemaosao Backpack"
+            },
+            {
+                "npc": "Bandicot",
+                "objective": [
+                    "Parte 1: Capturar: Electabuzz, Magmar, Jynx e Kangaskhan",
+                    "Parte 2: Capturar: Misdreavus, Wobbuffet, Tropius, Absol, Magnezone, Torkoal, Rotom, Castform, Roselia, Wynaut, Scyther, Scizor, Hariyama"
+                ],
+                "reward": "6.5kk EXP e Bandicot Backpack"
+            },
+            {
+                "npc": "Piipeex",
+                "objective": [
+                    "1ª Parte: Derrotar 150 Sceptile, 150 Blaziken e 150 Swampert",
+                    "2ª Parte: Duelar contra um Mega Sceptile, Mega Blaziken e Mega Swampert"
+                ],
+                "reward": "950k EXP e Piipeex Backpack"
+            },
+            {
+                "npc": "Capetoso",
+                "objective": "Derrotar: 10 Rhyperior, 10 Tangrowth, 10 Salamence, 10 Electivire, 10 Magmortar, 10 Dusknoir, 10 Metagross, 10 Slaking e 10 Milotic",
+                "reward": "2.5kk EXP e Capetoso Backpack"
+            },
+            {
+                "npc": "Teedzada",
+                "objective": "Derrotar: 500 Pokémon do tipo lutador",
+                "reward": "600k EXP e Teedzada Backpack"
+            },
+            {
+                "npc": "Flasheer",
+                "objective": "Derrotar: 300 Gyarados, 10 Shiny Gyarados, 3 Milotic, 80 Aggron e 90 Lucario",
+                "reward": "2.3kk EXP e Flasheer Backpack"
+            },
+            {
+                "npc": "Cat Of Athenaa",
+                "objective": "Derrotar: 100 Jynx, 100 Alakazam e 100 Mr.mime",
+                "reward": "315k EXP e Hyoo Backpack"
+            },
+            {
+                "npc": "Antedeguemonn",
+                "objective": [
+                    "Parte 1: Derrotar 50 Jynx, 50 Venusaur, 50 Machamp, 50 Tentacruel e 50 Marowak",
+                    "Parte 2: Derrotar 50 Arcanine, 50 Dragonair e 50 Gengar"
+                ],
+                "reward": "478.125 EXP e Antedeguemonn Backpack"
+            },
+            {
+                "npc": "Abak Woopz",
+                "objective": "Derrotar: 50 Snorlax, 50 Tauros, 50 Machamp, 50 Farfetch'd e 50 Pidgeot",
+                "reward": "250K EXP e Abak Backpack"
+            },
+            {
+                "npc": "Xoda",
+                "objective": [
+                    "Parte 1: Chegar a Wave 35 da Golden Arena",
+                    "Parte 2: Derrotar 5 Shiny Blastoise, 5 Shiny Scyther, 5 Shiny Gyarados e 5 Shiny Jynx"
+                ],
+                "reward": "1.5kk EXP e Xoda Backpack"
+            },
+            {
+                "npc": "Hidaree",
+                "objective": [
+                    "1ª Parte: Responder à pergunta, resposta: Metagross",
+                    "2ª Parte: Duelar contra um Electivire",
+                    "3ª Parte: Responder à pergunta, resposta: Forretress",
+                    "4ª Parte: Duelar contra um Mega Charizard X",
+                    "5ª Parte: Responder à pergunta, resposta: Garchomp"
+                ],
+                "reward": "500k EXP e Hidare Backpack"
+            },
+            {
+                "npc": "Gordonha",
+                "objective": [
+                    "1ª Parte: Derrotar 50 Elekid",
+                    "2ª Parte: Entregar 2 Snorburger",
+                    "3ª Parte: Entregar um Rambo Band (Addon do Caterpie)",
+                    "4ª Parte: Enfrentar Gordonha em um duelo de 3 Pokémon. O jogador receberá Champion Primeape, Machamp e Blaziken para derrotar Shiny Snorlax, Snorlax, Munchlax"
+                ],
+                "reward": "200k EXP e Gordonha Backpack"
+            },
+            {
+                "npc": "O Bulba",
+                "objective": [
+                    "1ª Parte: Responder o questionário, resposta correta: Bulbasaur",
+                    "2ª Parte: Derrotar 300 Swampert e coletar 4 Swampert pick fragment (Loot especial de Swampert)",
+                    "3ª Parte: Derrotar 1 Shiny Venusaur e coletar 1 Bulba's premier guitar strings (Loot especial de Shiny Venusaur)",
+                    "4ª Parte: Encontrar Bulbasaur (Ele pode estar no local de caça de Swampert, Venusaur ou próximo ao Centro Pokémon de Agate)"
+                ],
+                "reward": "825.860 EXP e O Bulba Backpack"
+            },
+            {
+                "npc": "Pelotalul",
+                "objective": [
+                    "1ª Parte: Coletar a touca (Respawn Froslass em Phenac, 5805, 5777, 5)",
+                    "2ª Parte: Derrotar 300 Blaziken e coletar 10 Nuggets (Loot especial de Blaziken)",
+                    "3ª Parte: Duelo contra Mega Sableye"
+                ],
+                "reward": "815.600 EXP e Pelotalul Backpack"
+            },
+            {
+                "npc": "Sharxera",
+                "objective": "Derrotar: 100 Machamp, 100 Hitmonlee, 100 Hitmonchan e 100 Hitmontop",
+                "reward": "371.250 EXP e Sharxera Backpack"
+            },
+            {
+                "npc": "Ness One",
+                "objective": "Duelar contra Natanael Cano, amigo de Ness One: O jogador receberá Claydol, Medicham e Sylveon para derrotar Pikachu, Golden Sudowoodo e Shiny Machamp",
+                "reward": "150.000 EXP e Ness One Backpack"
+            }
+        ]
+    }
+}
