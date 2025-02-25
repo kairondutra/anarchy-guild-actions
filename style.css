@@ -41,7 +41,6 @@ h1 {
 .npc-card {
   background: #ffffff;
   border: 1px solid #ddd;
-  border-left: 5px solid #4285f4;
   border-radius: 6px;
   padding: 15px;
   margin-bottom: 15px;
@@ -67,11 +66,20 @@ h1 {
   line-height: 1.4;
 }
 
+/* Diferenciação dos Cards */
+.nwtask-card {
+  border-left: 5px solid #8642f4; /* Azul para NW Tasks */
+}
+
+.kanto-card {
+  border-left: 5px solid #28a745; /* Verde para Kanto */
+}
+
 /* Estilização do Botão */
 .copy-btn {
   display: block;
-  width: 150px;
-  margin: 10px auto 0; /* Centraliza o botão */
+  width: 170px;
+  margin: 10px auto 0;
   background-color: #4285f4;
   color: white;
   border: none;
@@ -95,13 +103,13 @@ h1 {
 /* Responsividade */
 @media (max-width: 600px) {
   .container {
-      margin: 10px;
-      padding: 10px;
+    margin: 10px;
+    padding: 10px;
   }
   .npc-card {
-      padding: 10px;
+    padding: 10px;
   }
   .copy-btn {
-      width: 100%; /* Botão ocupa toda a largura em telas pequenas */
+    width: 100%;
   }
 }

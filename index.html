@@ -3,25 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anarchy Tools</title>
+  <title>Anarchy Tools - Tasks</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Tasks</h1>
-        <input type="text" id="searchInput" placeholder="Digite sua pesquisa..." oninput="applyFilters()">
-        <div class="filters">
-            <label>Filtros: </label>
-            <label><input type="checkbox" id="filterDerrotar" onchange="applyFilters()"> Derrotar</label>
-            <label><input type="checkbox" id="filterColetar" onchange="applyFilters()"> Coletar</label>
-            <label><input type="checkbox" id="filterLevel300" onchange="applyFilters()"> Level 300</label>
-            <label><input type="checkbox" id="filterLevel400" onchange="applyFilters()"> Level 400+</label>
-            <label><input type="checkbox" id="filterNWLevel50" onchange="applyFilters()"> NW Level 50+</label>
-            <label><input type="checkbox" id="filterBlackGem" onchange="applyFilters()"> Black Nightmare Gem</label>
-            <label><input type="checkbox" id="filterBeastBall" onchange="applyFilters()"> Beast Ball</label>
-        </div>
-        <div id="results"></div>
+  <div class="container">
+    <h1>Tasks</h1>
+    <input type="text" id="searchInput" placeholder="Digite sua pesquisa..." oninput="applyFilters()">
+    <div class="filters">
+      <label>Filtros (NW Tasks): </label>
+      <label><input type="checkbox" id="filterDerrotar" onchange="applyFilters()"> Derrotar</label>
+      <label><input type="checkbox" id="filterColetar" onchange="applyFilters()"> Coletar</label>
+      <label><input type="checkbox" id="filterLevel300" onchange="applyFilters()"> Level 300</label>
+      <label><input type="checkbox" id="filterLevel400" onchange="applyFilters()"> Level 400+</label>
+      <label><input type="checkbox" id="filterNWLevel50" onchange="applyFilters()"> NW Level 50+</label>
+      <label><input type="checkbox" id="filterBlackGem" onchange="applyFilters()"> Black Nightmare Gem</label>
+      <label><input type="checkbox" id="filterBeastBall" onchange="applyFilters()"> Beast Ball</label>
     </div>
-    <script src="script.js"></script>
+    <div id="results"></div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,9 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
     let npcsData = {};
-    fetch("data_nwtasks.json")
-        .then((response) => response.json())
-        .then((data) => {
-            npcsData = data;
+
+    Promise.all([
+        fetch("data_nwtasks.json").then(response => response.json()),
+        fetch("data_tasks.json").then(response => response.json())
+    ])
+        .then(([nwtasksData, tasksData]) => {
+            npcsData.nwtasks = nwtasksData;
+            npcsData.tasks = {};
+            for (const region in tasksData) {
+                for (const subregion in tasksData[region]) {
+                    npcsData.tasks[`${region} - ${subregion}`] = tasksData[region][subregion];
+                }
+            }
             applyFilters();
         })
         .catch((error) => console.error("Erro ao carregar dados:", error));
@@ -42,7 +51,38 @@ document.addEventListener("DOMContentLoaded", () => {
             return objetivos.replace(/\. /g, ".<br>");
         }
 
-        for (const [region, npcs] of Object.entries(npcsData)) {
+        function createNWTaskCard(npc, region) {
+            const expFormatted = npc.recompensa.exp;
+            const nwExpFormatted = npc.recompensa.nw_exp;
+            const recompensasFormatadas = formatarRecompensas(expFormatted, nwExpFormatted, npc.recompensa.itens || []);
+
+            return `
+                <div class="npc-card nwtask-card">
+                    <h3 class="npc-name">${npc.npc}</h3>
+                    <p class="npc-requirements"><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
+                    <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivos)}</p>
+                    <p class="npc-rewards"><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
+                    <button class="copy-btn" data-local="${npc.coordenadas || 'Coordenada não disponível'}">Copiar Coordenadas</button>
+                </div>
+            `;
+        }
+
+        function createTasksCard(npc, region) {
+            const objectiveText = Array.isArray(npc.objective) ? npc.objective.join("<br>") : npc.objective;
+            const rewardText = Array.isArray(npc.reward) ? npc.reward.join("<br>") : npc.reward;
+
+            return `
+                <div class="npc-card tasks-card">
+                    <h3 class="npc-name">${npc.npc}</h3>
+                    <p class="npc-objective"><strong>Objetivo:</strong> ${objectiveText}</p>
+                    <p class="npc-location"><strong>Localização:</strong> ${npc.location}</p>
+                    <p class="npc-rewards"><strong>Recompensa:</strong> ${rewardText}</p>
+                </div>
+            `;
+        }
+
+        // Processa NW Tasks
+        for (const [region, npcs] of Object.entries(npcsData.nwtasks || {})) {
             npcs.forEach((npc) => {
                 let matchesFilter = true;
 
@@ -79,32 +119,33 @@ document.addEventListener("DOMContentLoaded", () => {
                         npc.objetivos?.toLowerCase().includes(query) ||
                         String(npc.requisitos.level).includes(query) ||
                         String(npc.requisitos.nw_level).includes(query) ||
-                        npc.recompensa.itens.some(item =>
+                        (npc.recompensa.itens || []).some(item =>
                             item.nome.toLowerCase().includes(query) ||
                             String(item.quantidade).includes(query)
                         )
                     )
                 ) {
                     foundResults = true;
-                    const expFormatted = npc.recompensa.exp;
-                    const nwExpFormatted = npc.recompensa.nw_exp;
+                    resultsDiv.innerHTML += createNWTaskCard(npc, region);
+                }
+            });
+        }
 
-                    const recompensasFormatadas = formatarRecompensas(
-                        expFormatted,
-                        nwExpFormatted,
-                        npc.recompensa.itens || []
-                    );
+        // Processa Tasks
+        for (const [region, npcs] of Object.entries(npcsData.tasks || {})) {
+            npcs.forEach((npc) => {
+                const objectiveText = Array.isArray(npc.objective) ? npc.objective.join(" ") : npc.objective || "";
+                const rewardText = Array.isArray(npc.reward) ? npc.reward.join(" ") : npc.reward || "";
 
-                    const npcCard = `
-                        <div class="npc-card">
-                            <h3 class="npc-name">${npc.npc}</h3>
-                            <p class="npc-requirements"><strong>Requisitos:</strong> Level ${npc.requisitos.level}, NW Level ${npc.requisitos.nw_level}</p>
-                            <p class="npc-objective"><strong>Objetivos:</strong><br>${formatarObjetivos(npc.objetivos)}</p>
-                            <p class="npc-rewards"><strong>Recompensas:</strong> ${recompensasFormatadas}</p>
-                            <button class="copy-btn" data-local="${npc.coordenadas || 'Coordenada não disponível'}">Copiar Coordenadas</button>
-                        </div>
-                    `;
-                    resultsDiv.innerHTML += npcCard;
+                if (
+                    npc.npc.toLowerCase().includes(query) ||
+                    region.toLowerCase().includes(query) ||
+                    objectiveText.toLowerCase().includes(query) ||
+                    (npc.location || "").toLowerCase().includes(query) ||
+                    rewardText.toLowerCase().includes(query)
+                ) {
+                    foundResults = true;
+                    resultsDiv.innerHTML += createTasksCard(npc, region);
                 }
             });
         }
@@ -122,17 +163,15 @@ document.addEventListener("DOMContentLoaded", () => {
         copyButtons.forEach(button => {
             const local = button.getAttribute("data-local");
 
-            // Remove eventos de clique existentes
             button.removeEventListener("click", button.onclick);
             button.onclick = null;
 
-            // Verifica se as coordenadas são inválidas
             if (local === "Coordenada não disponível") {
                 button.disabled = true;
                 button.textContent = "Sem Coordenadas";
             } else {
                 button.disabled = false;
-                button.textContent = "Copiar Coordenada";
+                button.textContent = "Copiar Coordenadas";
                 button.addEventListener("click", function () {
                     navigator.clipboard.writeText(local).then(() => {
                         this.textContent = "Copiado!";
