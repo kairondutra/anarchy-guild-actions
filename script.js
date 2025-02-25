@@ -48,7 +48,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         function formatarObjetivos(objetivos) {
             if (!objetivos) return "";
-            return objetivos.replace(/\. /g, ".<br>");
+            // Se for array, junta com <br>, senão trata como string
+            return Array.isArray(objetivos) ? objetivos.join("<br>") : objetivos.replace(/\. /g, ".<br>");
         }
 
         function createNWTaskCard(npc, region) {
@@ -86,10 +87,13 @@ document.addEventListener("DOMContentLoaded", () => {
             npcs.forEach((npc) => {
                 let matchesFilter = true;
 
-                if (filterDerrotar && !npc.objetivos?.toLowerCase().includes("derrotar")) {
+                // Converte objetivos para string para busca e filtros
+                const objetivosText = Array.isArray(npc.objetivos) ? npc.objetivos.join(" ") : npc.objetivos || "";
+
+                if (filterDerrotar && !objetivosText.toLowerCase().includes("derrotar")) {
                     matchesFilter = false;
                 }
-                if (filterColetar && !npc.objetivos?.toLowerCase().includes("coletar")) {
+                if (filterColetar && !objetivosText.toLowerCase().includes("coletar")) {
                     matchesFilter = false;
                 }
                 if (filterLevel300 && filterLevel400) {
@@ -116,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     (
                         npc.npc.toLowerCase().includes(query) ||
                         region.toLowerCase().includes(query) ||
-                        npc.objetivos?.toLowerCase().includes(query) ||
+                        objetivosText.toLowerCase().includes(query) ||
                         String(npc.requisitos.level).includes(query) ||
                         String(npc.requisitos.nw_level).includes(query) ||
                         (npc.recompensa.itens || []).some(item =>
