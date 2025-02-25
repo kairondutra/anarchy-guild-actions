@@ -454,7 +454,12 @@
         {
             "npc": "Serenity",
             "coordenadas": "",
-            "objetivos": "Parte 1: Coletar os itens: Central Processing Unit, Blueprints, Gears, Toolbox e Apricorn. Aguarde 2 minutos e converse novamente com o NPC. Parte 2: Coletar as partes da Nightmare Ball. Aguarde 5 minutos e converse novamente para receber sua recompensa.",
+            "objetivos": [
+                "Parte 1: Coletar os itens: Central Processing Unit, Blueprints, Gears, Toolbox e Apricorn.",
+                "Aguarde 2 minutos e converse novamente com o NPC.",
+                "Parte 2: Coletar as partes da Nightmare Ball.",
+                "Aguarde 5 minutos e converse novamente para receber sua recompensa."
+            ],
             "requisitos": {
                 "level": 400,
                 "nw_level": 2
