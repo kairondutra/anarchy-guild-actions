@@ -10,7 +10,12 @@
   <div class="container">
     <h1>Tasks</h1>
     <input type="text" id="searchInput" placeholder="Digite sua pesquisa..." oninput="applyFilters()">
-    <div class="filters">
+    <div class="display-mode">
+      <label><input type="radio" name="displayMode" id="showAll" value="all" onchange="applyFilters()" checked> Mostrar Todos</label>
+      <label><input type="radio" name="displayMode" id="showNWOnly" value="nw" onchange="applyFilters()"> Apenas NW</label>
+    </div>
+    <button id="toggleFilters" onclick="toggleFilters()">Mostrar Filtros</button>
+    <div class="filters" id="filtersContainer" style="display: none;">
       <label>Filtros (NW Tasks): </label>
       <label><input type="checkbox" id="filterDerrotar" onchange="applyFilters()"> Derrotar</label>
       <label><input type="checkbox" id="filterColetar" onchange="applyFilters()"> Coletar</label>
