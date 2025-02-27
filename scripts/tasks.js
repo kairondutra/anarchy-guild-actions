@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
     let npcsData = {};
 
+    // Carregamento dos dados JSON
     Promise.all([
-        fetch("data_nwtasks.json").then(response => response.json()),
-        fetch("data_tasks.json").then(response => response.json())
+        fetch("../assets/data/data_nwtasks.json").then(response => response.json()),
+        fetch("../assets/data/data_tasks.json").then(response => response.json())
     ])
         .then(([nwtasksData, tasksData]) => {
             npcsData.nwtasks = nwtasksData;
@@ -17,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch((error) => console.error("Erro ao carregar dados:", error));
 
+    // Função para alternar visibilidade dos filtros
     window.toggleFilters = () => {
         const filtersContainer = document.getElementById("filtersContainer");
         const toggleButton = document.getElementById("toggleFilters");
@@ -29,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
 
+    // Função para aplicar filtros
     window.applyFilters = () => {
         const query = document.getElementById("searchInput").value.toLowerCase();
         const resultsDiv = document.getElementById("results");
@@ -102,30 +105,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 let matchesFilter = true;
                 const objetivosText = Array.isArray(npc.objetivos) ? npc.objetivos.join(" ") : npc.objetivos || "";
 
-                if (filterDerrotar && !objetivosText.toLowerCase().includes("derrotar")) {
-                    matchesFilter = false;
-                }
-                if (filterColetar && !objetivosText.toLowerCase().includes("coletar")) {
-                    matchesFilter = false;
-                }
+                if (filterDerrotar && !objetivosText.toLowerCase().includes("derrotar")) matchesFilter = false;
+                if (filterColetar && !objetivosText.toLowerCase().includes("coletar")) matchesFilter = false;
                 if (filterLevel300 && filterLevel400) {
-                    if (npc.requisitos.level < 300) {
-                        matchesFilter = false;
-                    }
-                } else if (filterLevel300 && npc.requisitos.level !== 300) {
-                    matchesFilter = false;
-                } else if (filterLevel400 && npc.requisitos.level < 400) {
-                    matchesFilter = false;
-                }
-                if (filterNWLevel50 && npc.requisitos.nw_level < 50) {
-                    matchesFilter = false;
-                }
-                if (filterBlackGem && !(npc.recompensa.itens || []).some(item => item.nome.toLowerCase().includes("black nightmare gem"))) {
-                    matchesFilter = false;
-                }
-                if (filterBeastBall && !(npc.recompensa.itens || []).some(item => item.nome.toLowerCase().includes("beast ball"))) {
-                    matchesFilter = false;
-                }
+                    if (npc.requisitos.level < 300) matchesFilter = false;
+                } else if (filterLevel300 && npc.requisitos.level !== 300) matchesFilter = false;
+                else if (filterLevel400 && npc.requisitos.level < 400) matchesFilter = false;
+                if (filterNWLevel50 && npc.requisitos.nw_level < 50) matchesFilter = false;
+                if (filterBlackGem && !(npc.recompensa.itens || []).some(item => item.nome.toLowerCase().includes("black nightmare gem"))) matchesFilter = false;
+                if (filterBeastBall && !(npc.recompensa.itens || []).some(item => item.nome.toLowerCase().includes("beast ball"))) matchesFilter = false;
 
                 if (
                     matchesFilter &&
@@ -175,6 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
         addCopyLocationFunctionality();
     };
 
+    // Função para adicionar funcionalidade de copiar coordenadas
     function addCopyLocationFunctionality() {
         const copyButtons = document.querySelectorAll(".copy-btn");
 

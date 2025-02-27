@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Nível</title>
+    <link rel="stylesheet" href="../styles/calc.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Nível</h1>
+        <div class="input-group">
+            <label for="currentXP">XP Atual:</label>
+            <input type="number" id="currentXP" placeholder="Digite sua XP atual" min="0">
+        </div>
+        <div class="input-group">
+            <label for="xpGain">XP a Ganhar:</label>
+            <input type="number" id="xpGain" placeholder="Digite a XP que você vai ganhar" min="0">
+        </div>
+        <button onclick="calculateLevel()">Calcular Nível</button>
+        <p id="result"></p>
+    </div>
+    <script src="../scripts/calc.js"></script>
+</body>
+</html>
