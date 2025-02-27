@@ -1,15 +1,13 @@
-/* calc.css */
 body {
-    background-color: #f4f4f4; /* Consistência com o tema */
+    background-color: #f4f4f4; 
 }
 
 main {
-    padding-top: 80px; /* Ajustado para navbar fixo */
-    flex: 1;
+    padding-top: 80px; 
 }
 
 .container {
-    padding: 0; /* Deixado para o Bootstrap gerenciar */
+    padding: 0; 
 }
 
 h1 {
@@ -31,7 +29,7 @@ input {
 }
 
 button {
-    background-color: #28a745; /* Sobrescreve o btn-primary */
+    background-color: #28a745; 
     color: white;
     padding: 10px 20px;
     border: none;
