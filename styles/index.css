@@ -3,60 +3,38 @@ body {
 }
 
 main {
-    padding-top: 70px; 
-    flex: 1;
+    padding-top: 80px; 
+    flex-grow: 1; 
 }
 
 .container {
-    text-align: center;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0; 
 }
 
 h1 {
     color: #333;
     margin-bottom: 20px;
-    font-size: 2em;
 }
 
-p {
+p.lead {
     color: #666;
-    margin-bottom: 30px;
     font-size: 1.1em;
 }
 
-.options {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.option-btn {
-    background-color: #4285f4; 
-    color: white;
-    padding: 12px 20px;
-    border-radius: 4px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.option-btn:hover {
-    background-color: #3267d6;
-    transform: scale(1.05);
+/* Estilo para o texto do rodapé */
+.footer-text {
+    color: #fff !important; 
+    opacity: 1 !important; 
 }
 
 @media (max-width: 600px) {
+    main {
+        padding-top: 60px;
+    }
     h1 {
         font-size: 1.5em;
     }
-    p {
+    p.lead {
         font-size: 1em;
-    }
-    .option-btn {
-        padding: 10px;
-        font-size: 14px;
     }
 }
