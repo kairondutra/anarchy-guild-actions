@@ -17,6 +17,18 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch((error) => console.error("Erro ao carregar dados:", error));
 
+    window.toggleFilters = () => {
+        const filtersContainer = document.getElementById("filtersContainer");
+        const toggleButton = document.getElementById("toggleFilters");
+        if (filtersContainer.style.display === "none") {
+            filtersContainer.style.display = "block";
+            toggleButton.textContent = "Esconder Filtros";
+        } else {
+            filtersContainer.style.display = "none";
+            toggleButton.textContent = "Mostrar Filtros";
+        }
+    };
+
     window.applyFilters = () => {
         const query = document.getElementById("searchInput").value.toLowerCase();
         const resultsDiv = document.getElementById("results");
@@ -29,6 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const filterNWLevel50 = document.getElementById("filterNWLevel50").checked;
         const filterBlackGem = document.getElementById("filterBlackGem").checked;
         const filterBeastBall = document.getElementById("filterBeastBall").checked;
+
+        const displayMode = document.querySelector('input[name="displayMode"]:checked').value;
+        const anyFilterActive = filterDerrotar || filterColetar || filterLevel300 || filterLevel400 || filterNWLevel50 || filterBlackGem || filterBeastBall;
 
         let foundResults = false;
 
@@ -48,7 +63,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         function formatarObjetivos(objetivos) {
             if (!objetivos) return "";
-            // Se for array, junta com <br>, senão trata como string
             return Array.isArray(objetivos) ? objetivos.join("<br>") : objetivos.replace(/\. /g, ".<br>");
         }
 
@@ -86,8 +100,6 @@ document.addEventListener("DOMContentLoaded", () => {
         for (const [region, npcs] of Object.entries(npcsData.nwtasks || {})) {
             npcs.forEach((npc) => {
                 let matchesFilter = true;
-
-                // Converte objetivos para string para busca e filtros
                 const objetivosText = Array.isArray(npc.objetivos) ? npc.objetivos.join(" ") : npc.objetivos || "";
 
                 if (filterDerrotar && !objetivosText.toLowerCase().includes("derrotar")) {
@@ -135,23 +147,25 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
 
-        // Processa Tasks
-        for (const [region, npcs] of Object.entries(npcsData.tasks || {})) {
-            npcs.forEach((npc) => {
-                const objectiveText = Array.isArray(npc.objective) ? npc.objective.join(" ") : npc.objective || "";
-                const rewardText = Array.isArray(npc.reward) ? npc.reward.join(" ") : npc.reward || "";
+        // Processa Tasks apenas se "Mostrar Todos" estiver selecionado e nenhum filtro NW estiver ativo
+        if (displayMode === "all" && !anyFilterActive) {
+            for (const [region, npcs] of Object.entries(npcsData.tasks || {})) {
+                npcs.forEach((npc) => {
+                    const objectiveText = Array.isArray(npc.objective) ? npc.objective.join(" ") : npc.objective || "";
+                    const rewardText = Array.isArray(npc.reward) ? npc.reward.join(" ") : npc.reward || "";
 
-                if (
-                    npc.npc.toLowerCase().includes(query) ||
-                    region.toLowerCase().includes(query) ||
-                    objectiveText.toLowerCase().includes(query) ||
-                    (npc.location || "").toLowerCase().includes(query) ||
-                    rewardText.toLowerCase().includes(query)
-                ) {
-                    foundResults = true;
-                    resultsDiv.innerHTML += createTasksCard(npc, region);
-                }
-            });
+                    if (
+                        npc.npc.toLowerCase().includes(query) ||
+                        region.toLowerCase().includes(query) ||
+                        objectiveText.toLowerCase().includes(query) ||
+                        (npc.location || "").toLowerCase().includes(query) ||
+                        rewardText.toLowerCase().includes(query)
+                    ) {
+                        foundResults = true;
+                        resultsDiv.innerHTML += createTasksCard(npc, region);
+                    }
+                });
+            }
         }
 
         if (!foundResults) {
