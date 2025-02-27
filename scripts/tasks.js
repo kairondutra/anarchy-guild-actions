@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Carregamento dos dados JSON
     Promise.all([
-        fetch("../assets/data/data_nwtasks.json").then(response => response.json()),
-        fetch("../assets/data/data_tasks.json").then(response => response.json())
+        fetch("./assets/data/data_nwtasks.json").then(response => response.json()),
+        fetch("./assets/data/data_tasks.json").then(response => response.json())
     ])
         .then(([nwtasksData, tasksData]) => {
             npcsData.nwtasks = nwtasksData;

@@ -1,16 +1,15 @@
+/* calc.css */
 body {
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Consistência com o tema */
 }
 
 main {
-    padding-top: 70px; 
+    padding-top: 80px; /* Ajustado para navbar fixo */
     flex: 1;
 }
 
 .container {
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 0; /* Deixado para o Bootstrap gerenciar */
 }
 
 h1 {
@@ -32,7 +31,7 @@ input {
 }
 
 button {
-    background-color: #28a745; 
+    background-color: #28a745; /* Sobrescreve o btn-primary */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -53,7 +52,7 @@ button:hover {
 }
 
 @media (max-width: 600px) {
-    .container {
-        padding: 10px;
+    main {
+        padding-top: 60px; /* Ajuste para telas menores */
     }
 }
